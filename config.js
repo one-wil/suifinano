@@ -25,7 +25,7 @@ const STORE_CONFIG = {
       "colorImages": {
         "أسود": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifingo/main/images/product-1766689786058-أسود-1766689863303-1000056028.jpg"
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-أسود-1766836480862-1000056028.jpg"
           ],
           "ageRanges": [
             {
@@ -47,7 +47,7 @@ const STORE_CONFIG = {
         },
         "رمادي": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifingo/main/images/product-1766689786058-رمادي-1766689889142-1000056027.jpg"
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-رمادي-1766836500007-1000056027.jpg"
           ],
           "ageRanges": [
             {
@@ -73,8 +73,8 @@ const STORE_CONFIG = {
         "guide": {}
       },
       "createdAt": "2025-12-25T19:09:46.058Z",
-      "image": "https://raw.githubusercontent.com/dz-one1/suifingo/main/images/product-1766689786058-1766689796754-1000056028.jpg",
-      "updatedAt": "2025-12-25T19:12:55.891Z"
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-1766836453333-1000056028.jpg",
+      "updatedAt": "2025-12-27T11:55:31.380Z"
     }
   },
   "DELIVERY_PRICES": {
@@ -576,7 +576,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 489,
+    "currentPoints": 482,
     "remainingDays": 29,
     "lastReset": "2025-12-25T18:52:46.994Z",
     "planType": "gratuit",
@@ -656,7 +656,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-27T11:50:14.413Z"
+    "lastUpdated": "2025-12-27T11:55:50.948Z"
   },
   "PIXEL_CODES": {
     "facebook": {
