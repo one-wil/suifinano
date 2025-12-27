@@ -18,14 +18,13 @@ const STORE_CONFIG = {
       ],
       "availableSizes": [
         "S",
-        "M",
         "L"
       ],
       "ageRanges": [],
       "colorImages": {
         "أسود": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-أسود-1766836758748-1000056028.jpg"
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-أسود-1766836949635-1000056028.jpg"
           ],
           "ageRanges": [
             {
@@ -47,7 +46,7 @@ const STORE_CONFIG = {
         },
         "رمادي": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-رمادي-1766836774718-1000056027.jpg"
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-رمادي-1766836974718-1000056027.jpg"
           ],
           "ageRanges": [
             {
@@ -73,8 +72,8 @@ const STORE_CONFIG = {
         "guide": {}
       },
       "createdAt": "2025-12-25T19:09:46.058Z",
-      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-1766836799389-1000056028.jpg",
-      "updatedAt": "2025-12-27T12:00:07.788Z"
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-1766836919721-1000056028.jpg",
+      "updatedAt": "2025-12-27T16:18:49.917Z"
     }
   },
   "DELIVERY_PRICES": {
@@ -576,11 +575,11 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 474,
-    "remainingDays": 29,
-    "lastReset": "2025-12-25T18:52:46.994Z",
+    "currentPoints": 998,
+    "remainingDays": 30,
+    "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
-    "monthlyPoints": 500,
+    "monthlyPoints": 1000,
     "resetPeriod": 30,
     "currentMonthDays": 30,
     "lastUpdate": "2025-12-13T18:59:22.674Z",
@@ -656,7 +655,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-27T12:00:13.470Z"
+    "lastUpdated": "2025-12-27T20:07:08.667Z"
   },
   "PIXEL_CODES": {
     "facebook": {
