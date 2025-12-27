@@ -157,8 +157,21 @@ const STORE_CONFIG = {
       ],
       "featured": false,
       "createdAt": "2025-12-27T21:30:15.969Z",
-      "updatedAt": "2025-12-27T21:34:32.754Z",
-      "colorImages": {},
+      "updatedAt": "2025-12-27T21:37:51.649Z",
+      "colorImages": {
+        "أخضر": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766871015969-أخضر-1766871408830-Screenshot-20251225-223822-Facebook.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": "  ",
+              "size": "46-48"
+            }
+          ]
+        }
+      },
       "sizeGuide": {
         "enabled": false,
         "guide": {}
@@ -665,7 +678,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 983,
+    "currentPoints": 980,
     "remainingDays": 30,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
@@ -745,7 +758,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-27T21:34:42.129Z"
+    "lastUpdated": "2025-12-27T21:37:59.564Z"
   },
   "PIXEL_CODES": {
     "facebook": {
