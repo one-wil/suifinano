@@ -74,6 +74,70 @@ const STORE_CONFIG = {
       "createdAt": "2025-12-25T19:09:46.058Z",
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-1766836919721-1000056028.jpg",
       "updatedAt": "2025-12-27T16:18:49.917Z"
+    },
+    "1766870645677": {
+      "name": "بدلة رياضية",
+      "price": 5000,
+      "stock": 0,
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-1766870714812-IMG-20251223-WA0007.jpg",
+      "description": "",
+      "category": "",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "availableColors": [
+        "أبيض",
+        "أحمر",
+        "أزرق"
+      ],
+      "featured": false,
+      "createdAt": "2025-12-27T21:24:05.677Z",
+      "updatedAt": "2025-12-27T21:28:00.675Z",
+      "colorImages": {
+        "أحمر": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-أحمر-1766870774229-IMG-20251223-WA0005.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "S"
+            }
+          ]
+        },
+        "أزرق": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-أزرق-1766870793796-IMG-20251223-WA0007.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "M"
+            }
+          ]
+        },
+        "أبيض": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-أبيض-1766870817310-IMG-20251223-WA0003.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "L"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "ageRanges": []
     }
   },
   "DELIVERY_PRICES": {
@@ -575,7 +639,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 994,
+    "currentPoints": 988,
     "remainingDays": 30,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
@@ -655,7 +719,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-27T21:20:58.750Z"
+    "lastUpdated": "2025-12-27T21:28:07.667Z"
   },
   "PIXEL_CODES": {
     "facebook": {
