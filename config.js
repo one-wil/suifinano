@@ -147,15 +147,17 @@ const STORE_CONFIG = {
       "description": "",
       "category": "",
       "availableSizes": [
+        "M",
+        "L",
         "45",
         "45"
       ],
       "availableColors": [
-        "أزرق"
+        "أخضر"
       ],
       "featured": false,
       "createdAt": "2025-12-27T21:30:15.969Z",
-      "updatedAt": "2025-12-27T21:31:08.241Z",
+      "updatedAt": "2025-12-27T21:34:32.754Z",
       "colorImages": {},
       "sizeGuide": {
         "enabled": false,
@@ -663,7 +665,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 985,
+    "currentPoints": 983,
     "remainingDays": 30,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
@@ -743,7 +745,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-27T21:31:13.549Z"
+    "lastUpdated": "2025-12-27T21:34:42.129Z"
   },
   "PIXEL_CODES": {
     "facebook": {
