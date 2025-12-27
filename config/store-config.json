@@ -142,8 +142,7 @@
       "description": "",
       "category": "",
       "availableSizes": [
-        "M",
-        "L",
+        "XL",
         "45",
         "45"
       ],
@@ -152,7 +151,7 @@
       ],
       "featured": false,
       "createdAt": "2025-12-27T21:30:15.969Z",
-      "updatedAt": "2025-12-27T21:37:51.649Z",
+      "updatedAt": "2025-12-27T22:01:01.767Z",
       "colorImages": {
         "أخضر": {
           "images": [
@@ -170,6 +169,152 @@
       "sizeGuide": {
         "enabled": false,
         "guide": {}
+      },
+      "ageRanges": []
+    },
+    "1766872907196": {
+      "name": "عباية",
+      "price": 1300,
+      "stock": 0,
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766872907196-1766872936548-Screenshot-20251225-223614-Facebook.jpg",
+      "description": "",
+      "category": "",
+      "availableSizes": [
+        "42-44"
+      ],
+      "availableColors": [
+        "أسود"
+      ],
+      "featured": false,
+      "createdAt": "2025-12-27T22:01:47.195Z",
+      "updatedAt": "2025-12-27T22:03:24.902Z",
+      "colorImages": {
+        "أسود": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766872907196-أسود-1766872964954-Screenshot-20251225-223614-Facebook.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "42-44"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "ageRanges": []
+    },
+    "1766873058465": {
+      "name": "فستان الافراح",
+      "price": 5600,
+      "stock": 0,
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766873058465-1766873089731-modle6.jpg",
+      "description": "",
+      "category": "",
+      "availableSizes": [
+        "S",
+        "M"
+      ],
+      "availableColors": [
+        "أحمر"
+      ],
+      "featured": false,
+      "createdAt": "2025-12-27T22:04:18.465Z",
+      "updatedAt": "2025-12-27T22:07:33.077Z",
+      "colorImages": {
+        "أحمر": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766873058465-أحمر-1766873132090-modle6.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": "8",
+              "ageTo": "6",
+              "size": "S"
+            },
+            {
+              "ageFrom": "12",
+              "ageTo": "9",
+              "size": "M"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": true,
+        "guide": {
+          "S": {
+            "heightFrom": 90,
+            "heightTo": 100,
+            "weightFrom": 15,
+            "weightTo": 20
+          },
+          "M": {
+            "heightFrom": 100,
+            "heightTo": 120,
+            "weightFrom": 20,
+            "weightTo": 25
+          }
+        }
+      },
+      "ageRanges": []
+    },
+    "1766873299848": {
+      "name": "فستان سندريلا",
+      "price": 9000,
+      "stock": 0,
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766873299848-1766873324101-Screenshot-20251226-151602-Chrome.jpg",
+      "description": "",
+      "category": "",
+      "availableSizes": [
+        "S",
+        "M"
+      ],
+      "availableColors": [
+        "وردي"
+      ],
+      "featured": false,
+      "createdAt": "2025-12-27T22:08:19.848Z",
+      "updatedAt": "2025-12-27T22:10:42.722Z",
+      "colorImages": {
+        "وردي": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766873299848-وردي-1766873350176-Screenshot-20251226-151602-Chrome.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": "9",
+              "ageTo": "7",
+              "size": "S"
+            },
+            {
+              "ageFrom": "12",
+              "ageTo": "10",
+              "size": "M"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": true,
+        "guide": {
+          "S": {
+            "heightFrom": 90,
+            "heightTo": 100,
+            "weightFrom": 20,
+            "weightTo": 25
+          },
+          "M": {
+            "heightFrom": 100,
+            "heightTo": 120,
+            "weightFrom": 25,
+            "weightTo": 30
+          }
+        }
       },
       "ageRanges": []
     }
@@ -673,7 +818,7 @@
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 980,
+    "currentPoints": 972,
     "remainingDays": 30,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
@@ -753,7 +898,7 @@
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-27T21:37:55.728Z"
+    "lastUpdated": "2025-12-27T22:10:49.126Z"
   },
   "PIXEL_CODES": {
     "facebook": {
