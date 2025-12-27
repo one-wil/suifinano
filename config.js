@@ -138,6 +138,30 @@ const STORE_CONFIG = {
         "guide": {}
       },
       "ageRanges": []
+    },
+    "1766871015969": {
+      "name": "عباية",
+      "price": 12000,
+      "stock": 0,
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766871015969-1766871044132-Screenshot-20251225-223822-Facebook.jpg",
+      "description": "",
+      "category": "",
+      "availableSizes": [
+        "45",
+        "45"
+      ],
+      "availableColors": [
+        "أزرق"
+      ],
+      "featured": false,
+      "createdAt": "2025-12-27T21:30:15.969Z",
+      "updatedAt": "2025-12-27T21:31:08.241Z",
+      "colorImages": {},
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "ageRanges": []
     }
   },
   "DELIVERY_PRICES": {
@@ -639,7 +663,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 988,
+    "currentPoints": 985,
     "remainingDays": 30,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
@@ -719,7 +743,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-27T21:28:07.667Z"
+    "lastUpdated": "2025-12-27T21:31:13.549Z"
   },
   "PIXEL_CODES": {
     "facebook": {
