@@ -823,11 +823,11 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 969,
+    "currentPoints": 967,
     "remainingDays": 30,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
-    "monthlyPoints": 1000,
+    "monthlyPoints": 500,
     "resetPeriod": 30,
     "currentMonthDays": 30,
     "lastUpdate": "2025-12-13T18:59:22.674Z",
@@ -903,7 +903,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-27T22:25:26.117Z"
+    "lastUpdated": "2025-12-27T22:57:09.542Z"
   },
   "PIXEL_CODES": {
     "facebook": {
