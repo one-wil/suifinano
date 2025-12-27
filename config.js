@@ -25,7 +25,7 @@ const STORE_CONFIG = {
       "colorImages": {
         "أسود": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifingo/main/images/product-1766689786058-أسود-1766689863303-1000056028.jpg"
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-أسود-1766689863303-1000056028.jpg"
           ],
           "ageRanges": [
             {
@@ -47,7 +47,7 @@ const STORE_CONFIG = {
         },
         "رمادي": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifingo/main/images/product-1766689786058-رمادي-1766689889142-1000056027.jpg"
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-رمادي-1766689889142-1000056027.jpg"
           ],
           "ageRanges": [
             {
@@ -73,7 +73,7 @@ const STORE_CONFIG = {
         "guide": {}
       },
       "createdAt": "2025-12-25T19:09:46.058Z",
-      "image": "https://raw.githubusercontent.com/dz-one1/suifingo/main/images/product-1766689786058-1766689796754-1000056028.jpg",
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-1766689796754-1000056028.jpg",
       "updatedAt": "2025-12-25T19:12:55.891Z"
     }
   },
@@ -351,7 +351,7 @@ const STORE_CONFIG = {
       "0671466489",
       "0551102155"
     ],
-    "logo": "https://raw.githubusercontent.com/dz-one1/suifingo/main/images/store-logo-1766661018161-Screenshot-20251225-120948-Photo-Editor.jpg",
+    "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1766661018161-Screenshot-20251225-120948-Photo-Editor.jpg",
     "facebookUrl": "https://www.facebook.com/groups/3131209233768404/?ref=share&mibextid=NSMWBT",
     "instagramUrl": "",
     "messengerUrl": "",
