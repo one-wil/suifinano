@@ -585,7 +585,7 @@
     "promoDiscountProducts": []
   },
   "STORE_INFO": {
-    "name": " BBENAKRAB-DZ",
+    "name": " BBENAKRAB-DZ clv Model vc",
     "storeIcon": "-",
     "storeTitle": "-",
     "tagline": "أحدث موديلات الأطفال لسنة 2026",
@@ -818,8 +818,8 @@
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 967,
-    "remainingDays": 30,
+    "currentPoints": 965,
+    "remainingDays": 29,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
     "monthlyPoints": 1000,
@@ -898,7 +898,7 @@
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-28T11:49:29.956Z"
+    "lastUpdated": "2025-12-28T22:46:27.775Z"
   },
   "PIXEL_CODES": {
     "facebook": {
