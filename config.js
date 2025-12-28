@@ -590,7 +590,7 @@ const STORE_CONFIG = {
     "promoDiscountProducts": []
   },
   "STORE_INFO": {
-    "name": " BBENAKRAB-DZ clv Model vc",
+    "name": " Four You",
     "storeIcon": "-",
     "storeTitle": "-",
     "tagline": "أحدث موديلات الأطفال لسنة 2026",
@@ -823,7 +823,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 965,
+    "currentPoints": 963,
     "remainingDays": 29,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
@@ -903,7 +903,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-28T22:46:29.430Z"
+    "lastUpdated": "2025-12-28T22:49:29.596Z"
   },
   "PIXEL_CODES": {
     "facebook": {
