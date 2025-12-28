@@ -583,7 +583,7 @@ const STORE_CONFIG = {
     "enableQuantityDiscount": true,
     "minQuantityForDiscount": 1,
     "discountPerItem": 500,
-    "discountScope": "all",
+    "discountScope": "selected",
     "discountProducts": [
       1766870645677,
       1766873299848
@@ -831,7 +831,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 961,
+    "currentPoints": 959,
     "remainingDays": 29,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
@@ -911,7 +911,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-28T22:53:49.272Z"
+    "lastUpdated": "2025-12-28T22:58:31.787Z"
   },
   "PIXEL_CODES": {
     "facebook": {
