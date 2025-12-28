@@ -827,7 +827,7 @@ const STORE_CONFIG = {
     "remainingDays": 30,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
-    "monthlyPoints": 500,
+    "monthlyPoints": 1000,
     "resetPeriod": 30,
     "currentMonthDays": 30,
     "lastUpdate": "2025-12-13T18:59:22.674Z",
@@ -903,7 +903,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-27T22:57:09.542Z"
+    "lastUpdated": "2025-12-28T11:49:31.607Z"
   },
   "PIXEL_CODES": {
     "facebook": {
