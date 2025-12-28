@@ -569,20 +569,28 @@
     "freeDeliveryProducts": [
       1765137505304,
       1765145035052,
-      1765145814607
+      1765145814607,
+      1766871015969,
+      1766872907196
     ]
   },
   "DISCOUNTS": {
     "enableQuantityDiscount": true,
     "minQuantityForDiscount": 1,
     "discountPerItem": 500,
-    "discountScope": "selected",
-    "discountProducts": [],
+    "discountScope": "all",
+    "discountProducts": [
+      1766870645677,
+      1766873299848
+    ],
     "enablePromotionalDiscount": true,
     "promotionalDiscountPercent": 20,
     "promotionalDiscountedPrice": null,
     "promoDiscountScope": "selected",
-    "promoDiscountProducts": []
+    "promoDiscountProducts": [
+      1766689786058,
+      1766873058465
+    ]
   },
   "STORE_INFO": {
     "name": " Four You",
@@ -818,7 +826,7 @@
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 963,
+    "currentPoints": 961,
     "remainingDays": 29,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
@@ -898,7 +906,7 @@
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-28T22:49:27.915Z"
+    "lastUpdated": "2025-12-28T22:53:47.477Z"
   },
   "PIXEL_CODES": {
     "facebook": {
