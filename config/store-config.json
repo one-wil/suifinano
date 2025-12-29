@@ -4,7 +4,7 @@
       "name": "begger nike ",
       "price": 5000,
       "description": "",
-      "category": "",
+      "category": "ملابس رجالية",
       "stock": 0,
       "featured": false,
       "availableColors": [
@@ -68,7 +68,7 @@
       },
       "createdAt": "2025-12-25T19:09:46.058Z",
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-1766836919721-1000056028.jpg",
-      "updatedAt": "2025-12-27T16:18:49.917Z"
+      "updatedAt": "2025-12-29T17:02:55.684Z"
     },
     "1766870645677": {
       "name": "بدلة رياضية",
@@ -76,7 +76,7 @@
       "stock": 0,
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-1766870714812-IMG-20251223-WA0007.jpg",
       "description": "",
-      "category": "",
+      "category": "ملابس رجالية",
       "availableSizes": [
         "S",
         "M",
@@ -89,7 +89,7 @@
       ],
       "featured": false,
       "createdAt": "2025-12-27T21:24:05.677Z",
-      "updatedAt": "2025-12-27T21:28:00.675Z",
+      "updatedAt": "2025-12-29T17:03:04.163Z",
       "colorImages": {
         "أحمر": {
           "images": [
@@ -140,7 +140,7 @@
       "stock": 0,
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766871015969-1766871044132-Screenshot-20251225-223822-Facebook.jpg",
       "description": "",
-      "category": "",
+      "category": "ملابس نسائية",
       "availableSizes": [
         "XL",
         "45",
@@ -151,7 +151,7 @@
       ],
       "featured": false,
       "createdAt": "2025-12-27T21:30:15.969Z",
-      "updatedAt": "2025-12-27T22:01:01.767Z",
+      "updatedAt": "2025-12-29T16:56:55.460Z",
       "colorImages": {
         "أخضر": {
           "images": [
@@ -178,7 +178,7 @@
       "stock": 0,
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766872907196-1766872936548-Screenshot-20251225-223614-Facebook.jpg",
       "description": "",
-      "category": "",
+      "category": "ملابس نسائية",
       "availableSizes": [
         "42-44"
       ],
@@ -187,7 +187,7 @@
       ],
       "featured": false,
       "createdAt": "2025-12-27T22:01:47.195Z",
-      "updatedAt": "2025-12-27T22:03:24.902Z",
+      "updatedAt": "2025-12-29T16:54:56.643Z",
       "colorImages": {
         "أسود": {
           "images": [
@@ -214,7 +214,7 @@
       "stock": 0,
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766873058465-1766873089731-modle6.jpg",
       "description": "",
-      "category": "",
+      "category": "ملابس أطفال",
       "availableSizes": [
         "S",
         "M"
@@ -224,7 +224,7 @@
       ],
       "featured": false,
       "createdAt": "2025-12-27T22:04:18.465Z",
-      "updatedAt": "2025-12-27T22:07:33.077Z",
+      "updatedAt": "2025-12-29T16:54:12.804Z",
       "colorImages": {
         "أحمر": {
           "images": [
@@ -269,7 +269,7 @@
       "stock": 0,
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766873299848-1766873324101-Screenshot-20251226-151602-Chrome.jpg",
       "description": "",
-      "category": "",
+      "category": "ملابس أطفال",
       "availableSizes": [
         "S",
         "M"
@@ -279,7 +279,7 @@
       ],
       "featured": false,
       "createdAt": "2025-12-27T22:08:19.848Z",
-      "updatedAt": "2025-12-27T22:10:42.722Z",
+      "updatedAt": "2025-12-29T16:54:27.021Z",
       "colorImages": {
         "وردي": {
           "images": [
@@ -569,9 +569,7 @@
     "freeDeliveryProducts": [
       1765137505304,
       1765145035052,
-      1765145814607,
-      1766871015969,
-      1766872907196
+      1765145814607
     ]
   },
   "DISCOUNTS": {
@@ -579,21 +577,15 @@
     "minQuantityForDiscount": 1,
     "discountPerItem": 500,
     "discountScope": "selected",
-    "discountProducts": [
-      1766870645677,
-      1766873299848
-    ],
+    "discountProducts": [],
     "enablePromotionalDiscount": true,
     "promotionalDiscountPercent": 20,
     "promotionalDiscountedPrice": null,
     "promoDiscountScope": "selected",
-    "promoDiscountProducts": [
-      1766689786058,
-      1766873058465
-    ]
+    "promoDiscountProducts": []
   },
   "STORE_INFO": {
-    "name": " Four You",
+    "name": " BBENAKRAB-DZ",
     "storeIcon": "-",
     "storeTitle": "-",
     "tagline": "أحدث موديلات الأطفال لسنة 2026",
@@ -826,8 +818,8 @@
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 957,
-    "remainingDays": 29,
+    "currentPoints": 963,
+    "remainingDays": 28,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
     "monthlyPoints": 1000,
@@ -906,7 +898,7 @@
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-28T22:59:10.267Z"
+    "lastUpdated": "2025-12-29T17:17:06.369Z"
   },
   "PIXEL_CODES": {
     "facebook": {
@@ -932,6 +924,51 @@
       }
     }
   },
+  "PRODUCT_CATEGORIES": [
+    "ملابس أطفال",
+    "ملابس رجالية",
+    "ملابس نسائية",
+    "أحذية",
+    "عطور رجالية",
+    "عطور نسائية",
+    "قبعات",
+    "ساعات رجالية",
+    "ساعات نسائية"
+  ],
+  "HAT_TYPES": [
+    "بيسبول",
+    "بريه",
+    "قبعة شمس",
+    "قبعة صوف",
+    "بكيني",
+    "قبعة رياضية",
+    "قبعة كلاسيكية"
+  ],
+  "WATCH_TYPES": [
+    "ساعة يد",
+    "ساعة حائط",
+    "ساعة ذكية",
+    "ساعة كوارتز",
+    "ساعة ميكانيكية",
+    "ساعة فاخرة"
+  ],
+  "PERFUME_TYPES": [
+    "عطر",
+    "ماء تواليت",
+    "ماء عطر",
+    "كريم عطري",
+    "سبراي جسم"
+  ],
+  "PERFUME_NOTES": [
+    "حمضيات",
+    "زهور",
+    "خشب",
+    "أعشاب",
+    "توابل",
+    "فواكه",
+    "مسك",
+    "عنبر"
+  ],
   "FREE_DELIVERY_PRODUCTS": [
     1765456782838
   ],
