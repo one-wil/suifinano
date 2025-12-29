@@ -322,6 +322,48 @@ const STORE_CONFIG = {
         }
       },
       "ageRanges": []
+    },
+    "1767029724573": {
+      "name": "T-Shirt",
+      "price": 2000,
+      "description": "",
+      "category": "",
+      "stock": 0,
+      "featured": false,
+      "availableColors": [
+        "أبيض"
+      ],
+      "availableSizes": [
+        "S",
+        "M"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "أبيض": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1767029724573-أبيض-1767029814373-photo-2025-11-27-16-29-52.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "S"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "M"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "createdAt": "2025-12-29T17:35:24.573Z",
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1767029724573-1767029746430-photo-2025-11-27-16-29-52.jpg",
+      "updatedAt": "2025-12-29T17:37:21.541Z"
     }
   },
   "DELIVERY_PRICES": {
@@ -823,7 +865,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 963,
+    "currentPoints": 957,
     "remainingDays": 28,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
@@ -903,7 +945,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-29T17:17:07.864Z"
+    "lastUpdated": "2025-12-29T17:37:29.501Z"
   },
   "PIXEL_CODES": {
     "facebook": {
