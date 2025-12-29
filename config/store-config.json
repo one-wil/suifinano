@@ -320,7 +320,7 @@
     },
     "1767029724573": {
       "name": "T-Shirt",
-      "price": 2000,
+      "price": 2500,
       "description": "",
       "category": "",
       "stock": 0,
@@ -358,7 +358,43 @@
       },
       "createdAt": "2025-12-29T17:35:24.573Z",
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1767029724573-1767029746430-photo-2025-11-27-16-29-52.jpg",
-      "updatedAt": "2025-12-29T17:37:21.541Z"
+      "updatedAt": "2025-12-29T20:13:39.348Z"
+    },
+    "1767039342242": {
+      "name": "KAJOAL",
+      "price": 2500,
+      "description": "",
+      "category": "",
+      "stock": 0,
+      "featured": false,
+      "availableColors": [
+        "رمادي"
+      ],
+      "availableSizes": [
+        "L"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "رمادي": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1767039342242-رمادي-1767039515196-photo-2025-11-27-21-31-49.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "L"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "createdAt": "2025-12-29T20:15:42.243Z",
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1767039342242-1767039389359-photo-2025-11-27-21-31-49.jpg",
+      "updatedAt": "2025-12-29T20:18:56.786Z"
     }
   },
   "DELIVERY_PRICES": {
@@ -779,21 +815,21 @@
       "heightTo": 130,
       "weightFrom": 14,
       "weightTo": 16,
-      "enabled": true
+      "enabled": false
     },
     "M": {
       "heightFrom": 130,
       "heightTo": 150,
       "weightFrom": 16,
       "weightTo": 22,
-      "enabled": true
+      "enabled": false
     },
     "L": {
       "heightFrom": 180,
       "heightTo": 195,
       "weightFrom": 70,
       "weightTo": 90,
-      "enabled": true
+      "enabled": false
     },
     "XL": {
       "heightFrom": 185,
@@ -860,7 +896,7 @@
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 949,
+    "currentPoints": 943,
     "remainingDays": 28,
     "lastReset": "2025-12-27T15:11:46.066Z",
     "planType": "gratuit",
@@ -940,7 +976,7 @@
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-29T19:27:49.572Z"
+    "lastUpdated": "2025-12-29T20:19:51.359Z"
   },
   "PIXEL_CODES": {
     "facebook": {
