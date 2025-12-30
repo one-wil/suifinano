@@ -981,7 +981,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-29T21:52:41.497Z"
+    "lastUpdated": "2025-12-30T08:31:03.336Z"
   },
   "PIXEL_CODES": {
     "facebook": {
