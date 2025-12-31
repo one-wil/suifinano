@@ -1664,7 +1664,7 @@
                 </button>
                 <div id="securityCounter" class="security-counter">
                     <i class="fas fa-shield-alt"></i>
-                    <span id="counterValue">500</span> points
+                    <span id="counterValue">1000</span> points
                 </div>
                 <div class="sync-status" id="syncStatus"></div>
                 <button class="btn btn-sm btn-info" onclick="toggleFullscreen()" title="Plein écran">
@@ -2184,11 +2184,11 @@
                 "XL": { heightFrom: 185, heightTo: 200, weightFrom: 85, weightTo: 110, enabled: true }
             },
             POINTS_SYSTEM: {
-                currentPoints: 500,
+                currentPoints: 1000,
                 remainingDays: 30,
                 lastReset: null,
                 planType: 'gratuit',
-                monthlyPoints: 500,
+                monthlyPoints: 1000,
                 resetPeriod: 30,
                 currentMonthDays: 30,
                 lastUpdated: null
@@ -2224,7 +2224,7 @@
         // =============================================================================
         
         const FREE_PLAN_SETTINGS = {
-            MONTHLY_POINTS: 500,
+            MONTHLY_POINTS: 1000,
             RESET_PERIOD_DAYS: 30,
             PLAN_TYPE: 'gratuit'
         };
@@ -2338,7 +2338,7 @@
         // =============================================================================
         
         const SECURITY_POINTS = {
-            INITIAL: 500,
+            INITIAL: 1000,
             UPLOAD_IMAGE: 1,          // Téléchargement d'image : déduit un point
             SYNC_DATA: 2,             // Sauvegarde et synchronisation : déduit deux points
             DELETE_IMAGE: 1,          // Suppression d'image : déduit un point
@@ -2412,7 +2412,7 @@
                 days: getRemainingDays()
             };
             console.log('✅ Résultat: points =', result1.points, 'jours =', result1.days);
-            console.log('✅ Attendu: 500 points, 30 jours');
+            console.log('✅ Attendu: 1000 points, 30 jours');
             
             // Test 2: Date récente (il y a 10 jours) - devrait garder les points
             console.log('\n🧪 Test 2: Date récente (il y a 10 jours)');
@@ -2517,7 +2517,7 @@
                 const newStartDate = new Date();
                 localStorage.setItem('subscriptionStart', newStartDate.toISOString());
                 
-                // Réinitialiser les points à 500
+                // Réinitialiser les points à 1000
                 localStorage.setItem('securityPoints', FREE_PLAN_SETTINGS.MONTHLY_POINTS.toString());
                 
                 // Les jours restants deviennent 30 jours
@@ -2535,14 +2535,14 @@
                 localStorage.setItem('currentMonthDays', FREE_PLAN_SETTINGS.RESET_PERIOD_DAYS.toString());
                 
                 console.log('✅ Abonnement renouvelé pour 30 jours');
-                console.log('🔄 Nouveaux points: 500');
+                console.log('🔄 Nouveaux points: 1000');
                 console.log('🔄 Nouveaux jours restants: 30');
                 
                 // Sauvegarder le système
                 saveConfig();
                 
                 // Notification à l'utilisateur
-                showNotification('Votre solde de points mensuel a été renouvelé (500 points) pour 30 jours', 'success');
+                showNotification('Votre solde de points mensuel a été renouvelé (1000 points) pour 30 jours', 'success');
             } 
             // Cas 2: Si la période est toujours en cours
             else {
@@ -2609,7 +2609,7 @@
         }
         
         function resetMonthlyPoints() {
-            // Réinitialiser les points à 500
+            // Réinitialiser les points à 1000
             localStorage.setItem('securityPoints', FREE_PLAN_SETTINGS.MONTHLY_POINTS.toString());
             
             // Réinitialiser les jours à 30
@@ -2644,7 +2644,7 @@
             }));
             
             // Notification à l'utilisateur
-            showNotification('Votre solde de points mensuel a été renouvelé (500 points)', 'success');
+            showNotification('Votre solde de points mensuel a été renouvelé (1000 points)', 'success');
             
             console.log('Points mensuels réinitialisés');
         }
@@ -3037,7 +3037,7 @@
         
         function manualResetPoints() {
             showConfirmModal(
-                'Voulez-vous réinitialiser manuellement les points mensuels ?<br><small>Cela réinitialisera les points à 500 et commencera un nouveau mois</small>',
+                'Voulez-vous réinitialiser manuellement les points mensuels ?<br><small>Cela réinitialisera les points à 1000 et commencera un nouveau mois</small>',
                 () => {
                     resetMonthlyPoints();
                     showNotification('Points mensuels réinitialisés avec succès', 'success');
@@ -3074,7 +3074,7 @@
                 remainingDays: remainingDays,
                 lastReset: localStorage.getItem('subscriptionStart'),
                 planType: 'gratuit',
-                monthlyPoints: 500,
+                monthlyPoints: 1000,
                 resetPeriod: 30,
                 currentMonthDays: localStorage.getItem('currentMonthDays') || FREE_PLAN_SETTINGS.RESET_PERIOD_DAYS.toString(),
                 lastUpdate: new Date().toISOString()
@@ -6303,7 +6303,7 @@
                             <div>Type de plan:</div>
                             <div><span class="badge badge-success">Gratuit</span></div>
                             <div>Points mensuels:</div>
-                            <div><span class="badge badge-info">500 points</span></div>
+                            <div><span class="badge badge-info">1000 points</span></div>
                             <div>Date de début:</div>
                             <div>${formatDate(startDate)}</div>
                             <div>Prochaine date de renouvellement:</div>
@@ -6369,12 +6369,11 @@
                             <i class="fas fa-info-circle"></i> Notes importantes:
                         </h5>
                         <ul style="color: var(--gray); margin: 0; padding-right: 15px;">
-                            <li>Le plan gratuit commence d'aujourd'hui pour un mois</li>
-                            <li>Chaque mois vous recevez 500 points gratuits</li>
+                            <li>Chaque mois vous recevez 1000 points gratuits</li>
                             <li>Les points diminuent progressivement pendant le mois</li>
                             <li>Si le solde est épuisé, il reste 0 jusqu'à la fin du mois</li>
                             <li>Les jours diminuent de 30 à 0 puis reviennent à 30</li>
-                            <li>500 points apparaissent dans le compteur directement après 30 jours</li>
+                            <li>1000 points apparaissent dans le compteur directement après 30 jours</li>
                             <li>Le solde et les jours restants sont restaurés automatiquement</li>
                             <li>Le solde est sauvegardé dans config</li>
                         </ul>
