@@ -594,7 +594,7 @@ const STORE_CONFIG = {
     "promoDiscountProducts": []
   },
   "STORE_INFO": {
-    "name": " For You and You",
+    "name": " For You and You you you you",
     "storeIcon": "-",
     "storeTitle": "-",
     "tagline": "أحدث موديلات الأطفال لسنة 2026",
@@ -827,7 +827,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 462,
+    "currentPoints": 460,
     "remainingDays": 28,
     "lastReset": "2025-12-30T17:33:54.743Z",
     "planType": "gratuit",
@@ -907,7 +907,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-01T18:15:33.655Z"
+    "lastUpdated": "2026-01-01T18:23:56.926Z"
   },
   "PIXEL_CODES": {
     "facebook": {
