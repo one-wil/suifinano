@@ -139,80 +139,6 @@ const STORE_CONFIG = {
       },
       "ageRanges": []
     },
-    "1766871015969": {
-      "name": "عباية",
-      "price": 12000,
-      "stock": 0,
-      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766871015969-1766871044132-Screenshot-20251225-223822-Facebook.jpg",
-      "description": "",
-      "category": "ملابس نسائية",
-      "availableSizes": [
-        "XL",
-        "45",
-        "45"
-      ],
-      "availableColors": [
-        "أخضر"
-      ],
-      "featured": false,
-      "createdAt": "2025-12-27T21:30:15.969Z",
-      "updatedAt": "2025-12-29T16:56:55.460Z",
-      "colorImages": {
-        "أخضر": {
-          "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766871015969-أخضر-1766871408830-Screenshot-20251225-223822-Facebook.jpg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": " ",
-              "ageTo": "  ",
-              "size": "46-48"
-            }
-          ]
-        }
-      },
-      "sizeGuide": {
-        "enabled": false,
-        "guide": {}
-      },
-      "ageRanges": []
-    },
-    "1766872907196": {
-      "name": "عباية",
-      "price": 1300,
-      "stock": 0,
-      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766872907196-1766872936548-Screenshot-20251225-223614-Facebook.jpg",
-      "description": "",
-      "category": "ملابس نسائية",
-      "availableSizes": [
-        "42-44"
-      ],
-      "availableColors": [
-        "أسود"
-      ],
-      "featured": false,
-      "createdAt": "2025-12-27T22:01:47.195Z",
-      "updatedAt": "2025-12-29T16:54:56.643Z",
-      "colorImages": {
-        "أسود": {
-          "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766872907196-أسود-1766872964954-Screenshot-20251225-223614-Facebook.jpg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": " ",
-              "ageTo": " ",
-              "size": "42-44"
-            }
-          ]
-        }
-      },
-      "sizeGuide": {
-        "enabled": false,
-        "guide": {}
-      },
-      "ageRanges": []
-    },
     "1766873058465": {
       "name": "فستان الافراح",
       "price": 5600,
@@ -901,8 +827,8 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 464,
-    "remainingDays": 29,
+    "currentPoints": 462,
+    "remainingDays": 28,
     "lastReset": "2025-12-30T17:33:54.743Z",
     "planType": "gratuit",
     "monthlyPoints": 1000,
@@ -981,7 +907,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2025-12-31T19:56:54.651Z"
+    "lastUpdated": "2026-01-01T18:15:33.655Z"
   },
   "PIXEL_CODES": {
     "facebook": {
