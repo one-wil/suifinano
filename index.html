@@ -3630,7 +3630,11 @@
         }
 
         function initStore() {
-           
+           if (typeof STORE_CONFIG === 'undefined') {
+        console.error('❌ ملف config.js غير محمل!');
+        showNotification('❌ خطأ في تحميل إعدادات المتجر', 'error');
+        return;
+    }
             updateStoreInterface();
             initModelsGallery();
             initContactNumbers();
