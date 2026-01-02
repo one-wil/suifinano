@@ -4306,14 +4306,14 @@
                     <h3><i class="fas fa-store"></i> Informations de base du magasin</h3>
                     
                     <div class="form-group">
-                        <label>Nom du magasin</label>
+                        <label>🟣 La marque (Brand)</label>
                         <input type="text" class="form-control" id="storeName" 
                                value="${CONFIG.STORE_INFO?.name || ''}" 
                                onchange="updateStoreField('name', this.value)">
                     </div>
                     
                     <div class="form-group">
-                        <label>Slogan du magasin (spécialité du magasin)</label>
+                        <label>👉 La spécialité de la boutique</label>
                         <input type="text" class="form-control" id="storeTagline" 
                                value="${CONFIG.STORE_INFO?.tagline || 'Boutique de vêtements luxueux'}" 
                                onchange="updateStoreField('tagline', this.value)">
