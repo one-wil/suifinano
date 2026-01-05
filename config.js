@@ -718,7 +718,7 @@ const STORE_CONFIG = {
       "0671466489",
       "0551102155"
     ],
-    "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1767652890906-Screenshot-20260105-233819-Samsung-Internet.jpg",
+    "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1767655687145-Screenshot-20260106-002703-Gallery.jpg",
     "facebookUrl": "https://www.facebook.com/groups/3131209233768404/?ref=share&mibextid=NSMWBT",
     "instagramUrl": "",
     "messengerUrl": "",
@@ -943,7 +943,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 966,
+    "currentPoints": 962,
     "remainingDays": 26,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "gratuit",
@@ -1023,7 +1023,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-05T22:52:26.160Z"
+    "lastUpdated": "2026-01-05T23:28:18.631Z"
   },
   "PIXEL_CODES": {
     "facebook": {
