@@ -710,7 +710,7 @@ const STORE_CONFIG = {
     ]
   },
   "STORE_INFO": {
-    "name": " For You ",
+    "name": "𝒇𝑜𝓇 𝓎𝑜𝓊",
     "storeIcon": "-",
     "storeTitle": "-",
     "tagline": "أحدث الموديلات لسنة 2026",
@@ -943,7 +943,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 974,
+    "currentPoints": 972,
     "remainingDays": 26,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "gratuit",
@@ -1023,7 +1023,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-05T22:08:02.496Z"
+    "lastUpdated": "2026-01-05T22:25:20.498Z"
   },
   "PIXEL_CODES": {
     "facebook": {
