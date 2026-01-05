@@ -693,7 +693,8 @@
     "discountPerItem": 500,
     "discountScope": "selected",
     "discountProducts": [
-      1767039342242
+      1767039342242,
+      1767650018376
     ],
     "enablePromotionalDiscount": true,
     "promotionalDiscountPercent": 20,
@@ -937,7 +938,7 @@
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 978,
+    "currentPoints": 976,
     "remainingDays": 26,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "gratuit",
@@ -1017,7 +1018,7 @@
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-05T21:55:49.638Z"
+    "lastUpdated": "2026-01-05T22:01:10.011Z"
   },
   "PIXEL_CODES": {
     "facebook": {
