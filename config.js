@@ -620,7 +620,8 @@ const STORE_CONFIG = {
     "freeDeliveryProducts": [
       1765137505304,
       1765145035052,
-      1765145814607
+      1765145814607,
+      1766870645677
     ]
   },
   "DISCOUNTS": {
@@ -628,12 +629,16 @@ const STORE_CONFIG = {
     "minQuantityForDiscount": 1,
     "discountPerItem": 500,
     "discountScope": "selected",
-    "discountProducts": [],
+    "discountProducts": [
+      1767039342242
+    ],
     "enablePromotionalDiscount": true,
     "promotionalDiscountPercent": 20,
     "promotionalDiscountedPrice": null,
     "promoDiscountScope": "selected",
-    "promoDiscountProducts": []
+    "promoDiscountProducts": [
+      1766873299848
+    ]
   },
   "STORE_INFO": {
     "name": " For You and You ",
@@ -644,7 +649,7 @@ const STORE_CONFIG = {
       "0671466489",
       "0551102155"
     ],
-    "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1766874306292-Screenshot-20251225-115112-Gallery.jpg",
+    "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1767649046803-Screenshot-20251225-120119-Samsung-Internet.jpg",
     "facebookUrl": "https://www.facebook.com/groups/3131209233768404/?ref=share&mibextid=NSMWBT",
     "instagramUrl": "",
     "messengerUrl": "",
@@ -869,7 +874,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 988,
+    "currentPoints": 984,
     "remainingDays": 26,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "gratuit",
@@ -949,7 +954,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-05T21:35:03.294Z"
+    "lastUpdated": "2026-01-05T21:38:41.441Z"
   },
   "PIXEL_CODES": {
     "facebook": {
