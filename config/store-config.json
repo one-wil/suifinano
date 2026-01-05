@@ -321,6 +321,48 @@
       "createdAt": "2025-12-29T20:15:42.243Z",
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1767039342242-1767039389359-photo-2025-11-27-21-31-49.jpg",
       "updatedAt": "2025-12-29T20:18:56.786Z"
+    },
+    "1767648373014": {
+      "name": "عباية",
+      "price": 12000,
+      "stock": 0,
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1767648373014-1767648712298-Screenshot-20251225-223822-Facebook.jpg",
+      "description": "",
+      "category": "",
+      "availableSizes": [
+        "XL",
+        "XXL"
+      ],
+      "availableColors": [
+        "أخضر"
+      ],
+      "featured": false,
+      "createdAt": "2026-01-05T21:26:13.014Z",
+      "updatedAt": "2026-01-05T21:34:05.965Z",
+      "colorImages": {
+        "أخضر": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1767648373014-أخضر-1767648770802-Screenshot-20251225-223822-Facebook.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "XL"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "XXL"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "ageRanges": []
     }
   },
   "DELIVERY_PRICES": {
@@ -822,8 +864,8 @@
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 994,
-    "remainingDays": 30,
+    "currentPoints": 988,
+    "remainingDays": 26,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "gratuit",
     "monthlyPoints": 1000,
@@ -902,7 +944,7 @@
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-01T21:25:24.064Z"
+    "lastUpdated": "2026-01-05T21:35:01.264Z"
   },
   "PIXEL_CODES": {
     "facebook": {
