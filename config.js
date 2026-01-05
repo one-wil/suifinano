@@ -368,6 +368,74 @@ const STORE_CONFIG = {
         "guide": {}
       },
       "ageRanges": []
+    },
+    "1767650018376": {
+      "name": "حداء رياضي من علامة نايك",
+      "price": 12000,
+      "stock": 0,
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1767650018376-1767650044338-Screenshot-20260105-224958-Chrome.jpg",
+      "description": "",
+      "category": "",
+      "availableSizes": [
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "45"
+      ],
+      "availableColors": [
+        "رمادي"
+      ],
+      "featured": false,
+      "createdAt": "2026-01-05T21:53:38.376Z",
+      "updatedAt": "2026-01-05T21:55:39.179Z",
+      "colorImages": {
+        "رمادي": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1767650018376-رمادي-1767650066708-Screenshot-20260105-224958-Chrome.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "39"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "40"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "41"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "42"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "43"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "44"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "ageRanges": []
     }
   },
   "DELIVERY_PRICES": {
@@ -641,15 +709,15 @@ const STORE_CONFIG = {
     ]
   },
   "STORE_INFO": {
-    "name": " For You and You ",
+    "name": " For You ",
     "storeIcon": "-",
     "storeTitle": "-",
-    "tagline": "أحدث موديلات الأطفال لسنة 2026",
+    "tagline": "أحدث الموديلات لسنة 2026",
     "phoneNumbers": [
       "0671466489",
       "0551102155"
     ],
-    "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1767649046803-Screenshot-20251225-120119-Samsung-Internet.jpg",
+    "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1767649929351-Screenshot-20251225-115112-Gallery.jpg",
     "facebookUrl": "https://www.facebook.com/groups/3131209233768404/?ref=share&mibextid=NSMWBT",
     "instagramUrl": "",
     "messengerUrl": "",
@@ -874,7 +942,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 984,
+    "currentPoints": 978,
     "remainingDays": 26,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "gratuit",
@@ -954,7 +1022,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-05T21:38:41.441Z"
+    "lastUpdated": "2026-01-05T21:55:52.993Z"
   },
   "PIXEL_CODES": {
     "facebook": {
