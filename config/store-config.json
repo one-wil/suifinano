@@ -431,6 +431,23 @@
         "guide": {}
       },
       "ageRanges": []
+    },
+    "1767869702056": {
+      "name": "Nouveau produit",
+      "price": 0,
+      "description": "",
+      "category": "",
+      "stock": 0,
+      "featured": false,
+      "availableColors": [],
+      "availableSizes": [],
+      "ageRanges": [],
+      "colorImages": {},
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "createdAt": "2026-01-08T10:55:02.056Z"
     }
   },
   "DELIVERY_PRICES": {
@@ -938,10 +955,10 @@
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 954,
+    "currentPoints": 952,
     "remainingDays": 24,
     "lastReset": "2026-01-01T19:10:50.001Z",
-    "planType": "مجاني",
+    "planType": "gratuit",
     "monthlyPoints": 1000,
     "resetPeriod": 30,
     "currentMonthDays": 30,
@@ -1018,7 +1035,7 @@
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-07T22:23:24.284Z"
+    "lastUpdated": "2026-01-08T10:55:06.292Z"
   },
   "PIXEL_CODES": {
     "facebook": {
