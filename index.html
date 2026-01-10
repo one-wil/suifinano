@@ -3337,9 +3337,9 @@
                     <div class="form-group">
                         <label for="phone">رقم الهاتف</label>
                         <div class="phone-input-container">
-                            <span class="phone-prefix">05/06/07</span>
+                            <span class="phone-prefix"></span>
                             <input type="tel" id="phone" name="phone" pattern="^(05|06|07)[0-9]{8}$" maxlength="10" required 
-                                   autocomplete="tel" placeholder="XXXXXXXXXX" oninput="handlePhoneInput(this)">
+                                   autocomplete="tel" placeholder="" oninput="handlePhoneInput(this)">
                         </div>
                         <div class="phone-validation" id="phoneValidation" style="font-size: 0.7rem; color: var(--gray); margin-top: 0.2rem;">
                             <i class="fas fa-info-circle"></i>
@@ -3394,7 +3394,7 @@
                         <table class="measurements-table">
                             <thead>
                                 <tr>
-                                    <th>الحجم</th>
+                                    <th>القياس</th>
                                     <th>الطول (سم)</th>
                                     <th>الوزن (كلغ)</th>
                                 </tr>
@@ -3434,7 +3434,7 @@
                         
                         <!-- Size Options -->
                         <div class="size-options-container" id="sizeOptionsContainer" style="display: none;">
-                            <label style="font-size: 0.8rem; margin-bottom: 0.2rem;">الأحجام المتاحة</label>
+                            <label style="font-size: 0.8rem; margin-bottom: 0.2rem;">القياسات المتاحة</label>
                             <div class="size-options-small" id="ageOptions">
                                 <!-- Size options will be loaded here -->
                             </div>
@@ -4192,8 +4192,8 @@
                 const availableColors = product.availableColors || [];
                 
                 const sizesText = availableSizes.length > 0 
-                    ? `الأحجام: ${availableSizes.join(', ')}` 
-                    : 'لا توجد أحجام محددة';
+                    ? `القياسات: ${availableSizes.join(', ')}` 
+                    : 'لا توجد قياسات محددة';
                     
                 const colorsText = availableColors.length > 0 
                     ? `الألوان: ${availableColors.length}` 
@@ -4769,7 +4769,7 @@
                         <h4 class="selected-product-title">${item.name}</h4>
                         <div class="selected-product-details">
                             <span class="selected-product-detail">العمر: ${item.age}</span>
-                            <span class="selected-product-detail">الحجم: ${item.size}</span>
+                            <span class="selected-product-detail">القياس: ${item.size}</span>
                             <span class="selected-product-detail">اللون: ${item.color}</span>
                         </div>
                         <div class="selected-product-price">
@@ -5187,7 +5187,7 @@
                 addToCartBtn.addEventListener('click', function(event) {
                     // Check color and size selection first
                     if (!selectedColor || !selectedAge) {
-                        showNotification('يرجى اختيار اللون والحجم أولاً', 'warning');
+                        showNotification('يرجى اختيار اللون والقياس أولاً', 'warning');
                         return;
                     }
                     
@@ -5248,7 +5248,7 @@
             const productColors = product.availableColors || [];
             
             if (productSizes.length > 1 || productColors.length > 1) {
-                showNotification('يرجى اختيار اللون والحجم أولاً', 'warning');
+                showNotification('يرجى اختيار اللون والقياس أولاً', 'warning');
                 showProductDetails(productKey);
                 return;
             }
