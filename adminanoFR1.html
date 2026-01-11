@@ -4941,23 +4941,89 @@
         // =============================================================================
         
         
-           /* editingProductId = null;
-            showEditProductModal(null, {});*/
+
         
     function showAddProductModal() {
-    // نحدد أن لا يوجد منتج جارٍ تعديله
     editingProductId = null;
+    const modal = document.getElementById('productModal');
+    const modalHeader = modal.querySelector('.modal-header h3');
+    modalHeader.innerHTML = `<i class="fas fa-plus-circle"></i> Ajouter un nouveau produit`;
 
-    // نفتح نافذة المنتج بنفس الشكل لكن مع id فارغ وكائن فارغ {}
-    showEditProductModal(null, {
-        name: '',
-        price: 0,
-        image: '',
-        description: '',
-        availableSizes: [],
-        availableColors: []
-    });
+    const modalBody = modal.querySelector('.modal-body');
+    modalBody.innerHTML = `
+        <div class="form-group">
+            <label>Nom du produit</label>
+            <input type="text" class="form-control" id="productName" 
+                   value="" placeholder="Entrez le nom du produit">
+        </div>
+        
+        <div class="form-row">
+            <div class="form-group">
+                <label>Prix (DA)</label>
+                <input type="number" class="form-control" id="productPrice" 
+                       value="0" placeholder="Prix" min="0">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label>Image principale</label>
+            <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                <input type="hidden" id="productImageHidden" value="">
+                <button class="btn btn-secondary" onclick="showUploadImageModal('main', null)">
+                    <i class="fas fa-upload"></i> Télécharger
+                </button>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label>Description</label>
+            <textarea class="form-control textarea-md" id="productDescription" 
+                      placeholder="Description du produit"></textarea>
+        </div>
+        
+        <div class="form-row">
+            <div class="form-group">
+                <label>Tailles disponibles</label>
+                <div style="max-height: 150px; overflow-y: auto; padding: 10px; background: var(--light); border-radius: var(--radius-sm);">
+                    ${CONFIG.AVAILABLE_SIZES.map(size => `
+                        <div style="margin-bottom: 5px;">
+                            <input type="checkbox" id="product_size_${size}" value="${size}">
+                            <label for="product_size_${size}" style="margin-right: 5px;">${size}</label>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label>Couleurs disponibles</label>
+                <div style="max-height: 150px; overflow-y: auto; padding: 10px; background: var(--light); border-radius: var(--radius-sm);">
+                    ${CONFIG.AVAILABLE_COLORS.map(color => `
+                        <div style="margin-bottom: 5px;">
+                            <input type="checkbox" id="product_color_${color}" value="${color}">
+                            <label for="product_color_${color}" style="margin-right: 5px;">${color}</label>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bouton de sauvegarde -->
+        <div style="margin-top: 20px; text-align: center;">
+            <button class="btn btn-primary" onclick="saveProduct()" style="width: 100%;">
+                <i class="fas fa-save"></i> Sauvegarder le produit
+            </button>
+        </div>
+        
+        <div class="form-actions">
+            <button class="btn btn-secondary" onclick="closeProductModal()">
+                <i class="fas fa-times"></i> Quitter
+            </button>
+        </div>
+    `;
+
+    modal.style.display = 'flex';
 }
+
 
 
         
