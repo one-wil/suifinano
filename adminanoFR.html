@@ -4948,6 +4948,14 @@
         function showEditProductModal(id, product) {
             editingProductId = id;
             const modal = document.getElementById('productModal');
+
+             if (id && CONFIG.PRODUCTS[id]) {
+        CONFIG.PRODUCTS[id] = {
+            ...CONFIG.PRODUCTS[id],
+            ...product
+        };
+        saveConfig(); // حفظ فوري
+    }
             const modalHeader = modal.querySelector('.modal-header h3');
             modalHeader.innerHTML = id ? `<i class="fas fa-edit"></i> Modifier le produit` : `<i class="fas fa-plus-circle"></i> Ajouter un nouveau produit`;
             
