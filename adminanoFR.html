@@ -5133,57 +5133,7 @@
         function showUploadImageModal(type, productId, color = null) {
 
 
-           const name = document.getElementById('productName').value;
-            const price = parseInt(document.getElementById('productPrice').value) || 0;
-            const image = document.getElementById('productImageHidden')?.value || '';
-            const description = document.getElementById('productDescription').value;
-            
-            const selectedSizes = [];
-            CONFIG.AVAILABLE_SIZES.forEach(size => {
-                const checkbox = document.getElementById(`product_size_${size}`);
-                if (checkbox && checkbox.checked) {
-                    selectedSizes.push(size);
-                }
-            });
-            
-            const selectedColors = [];
-            CONFIG.AVAILABLE_COLORS.forEach(color => {
-                const checkbox = document.getElementById(`product_color_${color}`);
-                if (checkbox && checkbox.checked) {
-                    selectedColors.push(color);
-                }
-            });
-            
-            const productData = {
-                name: name || 'Produit sans nom',
-                price: price,
-                stock: 0,
-                image: image,
-                description: description,
-                category: "",
-                availableSizes: selectedSizes,
-                availableColors: selectedColors,
-                featured: false,
-                createdAt: editingProductId ? CONFIG.PRODUCTS[editingProductId]?.createdAt || new Date().toISOString() : new Date().toISOString(),
-                updatedAt: new Date().toISOString()
-            };
-            
-            if (editingProductId && CONFIG.PRODUCTS[editingProductId]) {
-                productData.colorImages = CONFIG.PRODUCTS[editingProductId].colorImages || {};
-                productData.sizeGuide = CONFIG.PRODUCTS[editingProductId].sizeGuide || { enabled: false, guide: {} };
-                productData.ageRanges = CONFIG.PRODUCTS[editingProductId].ageRanges || [];
-            } else {
-                productData.colorImages = {};
-                productData.sizeGuide = { enabled: false, guide: {} };
-                productData.ageRanges = [];
-            }
-            
-            if (editingProductId) {
-                CONFIG.PRODUCTS[editingProductId] = { ...CONFIG.PRODUCTS[editingProductId], ...productData };
-            } else {
-                const newId = Date.now();
-                CONFIG.PRODUCTS[newId] = productData;
-            }
+                       
             
             saveConfig();
             loadProducts();
