@@ -4943,7 +4943,7 @@
         function showAddProductModal() {
            /* editingProductId = null;
             showEditProductModal(null, {});*/
-        }
+        
                     editingProductId = id;
             const modal = document.getElementById('productModal');
             const modalHeader = modal.querySelector('.modal-header h3');
@@ -5060,6 +5060,7 @@
             `;
             
             modal.style.display = 'flex';
+        
         }
         function showEditProductModal(id, product) {
             editingProductId = id;
