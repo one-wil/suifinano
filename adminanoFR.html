@@ -3601,8 +3601,8 @@
             // Ajouter un produit ne déduit pas de points
             const newId = Date.now();
             CONFIG.PRODUCTS[newId] = {
-                name: "Nouveau produit",
-                price: 0,
+                name: "",
+                price: ,
                 description: "",
                 category: "",
                 stock: 0,
@@ -5131,11 +5131,11 @@
         }
         
         function showUploadImageModal(type, productId, color = null) {
-        
+
             if (!checkServerConnection()) {
                 return;
             }
-            saveConfig();
+                    saveConfig();
 
             
             // Vérifier les points avant d'ouvrir la fenêtre de téléchargement d'image
