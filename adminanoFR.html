@@ -5135,7 +5135,6 @@
             if (!checkServerConnection()) {
                 return;
             }
-                    saveConfig();
 
             
             // Vérifier les points avant d'ouvrir la fenêtre de téléchargement d'image
@@ -5154,7 +5153,8 @@
             
             const modal = document.getElementById('uploadImageModal');
             const modalHeader = modal.querySelector('.modal-header h3');
-            
+            saveConfig();
+
             let title = 'Télécharger une image';
             if (type === 'main') title = 'Télécharger l\'image principale du produit';
             else if (type === 'color') title = `Télécharger une image pour la couleur ${color}`;
