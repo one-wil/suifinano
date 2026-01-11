@@ -5278,13 +5278,12 @@
                     const imageUrl = result.content.download_url;
 
                    // ✅ حفظ اسم المنتج والثمن بعد رفع الصورة
-const productNameInput = document.getElementById('productNameInput');
-const productPriceInput = document.getElementById('productPriceInput');
+const productNameInput = document.getElementById('productName');
+const productPriceInput = document.getElementById('productPrice');
 if (productNameInput && productPriceInput) {
     CONFIG.PRODUCTS[productId].name = productNameInput.value;
     CONFIG.PRODUCTS[productId].price = parseFloat(productPriceInput.value);
 }
-
 
                     
                     if (type === 'main') {
