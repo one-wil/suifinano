@@ -4949,13 +4949,52 @@
             editingProductId = id;
             const modal = document.getElementById('productModal');
 
-             if (id && CONFIG.PRODUCTS[id]) {
+                
+    // ✅ احفظ البيانات الحالية أولاً (حلك الصحيح)
+    if (id && CONFIG.PRODUCTS[id]) {
         CONFIG.PRODUCTS[id] = {
-            ...CONFIG.PRODUCTS[id],
-            ...product
+            ...CONFIG.PRODUCTS[id],  // احتفظ بكل البيانات القديمة (الصور، الألوان، المقاسات)
+            ...product                // تحديث بالبيانات الجديدة (الاسم، السعر، الوصف)
         };
-        saveConfig(); // حفظ فوري
+        saveConfig(); // حفظ فوري في localStorage
     }
+    
+    // ✅ أضف هذا للتأكد من حفظ البيانات عند كل تغيير
+    const modalBody = modal.querySelector('.modal-body');
+    modalBody.innerHTML = `
+        <div class="form-group">
+            <label>اسم المنتج</label>
+            <input type="text" class="form-control" id="productName" 
+                   value="${product.name || ''}" placeholder="أدخل اسم المنتج"
+                   onchange="saveProductField('name', this.value)">
+        </div>
+        
+        <div class="form-group">
+            <label>السعر (دج)</label>
+            <input type="number" class="form-control" id="productPrice" 
+                   value="${product.price || 0}" placeholder="السعر" min="0"
+                   onchange="saveProductField('price', this.value)">
+        </div>
+        
+        <!-- ... باقي الحقول مع onchange ... -->
+    `;
+    
+    modal.style.display = 'flex';
+}
+
+// ✅ دالة مساعدة لحفظ كل حقل عند التغيير
+function saveProductField(field, value) {
+    if (!editingProductId) return;
+    
+    if (!CONFIG.PRODUCTS[editingProductId]) return;
+    
+    CONFIG.PRODUCTS[editingProductId][field] = field === 'price' ? parseInt(value) || 0 : value;
+    saveConfig(); // حفظ بعد كل تغيير
+    
+    console.log(`تم حفظ ${field}:`, value);
+}
+
+            
             const modalHeader = modal.querySelector('.modal-header h3');
             modalHeader.innerHTML = id ? `<i class="fas fa-edit"></i> Modifier le produit` : `<i class="fas fa-plus-circle"></i> Ajouter un nouveau produit`;
             
