@@ -436,6 +436,42 @@ const STORE_CONFIG = {
         "guide": {}
       },
       "ageRanges": []
+    },
+    "1768158351992": {
+      "name": " قبعة جودة عالية ",
+      "price": 2500,
+      "description": "",
+      "category": "",
+      "stock": 0,
+      "featured": false,
+      "availableColors": [
+        "أسود"
+      ],
+      "availableSizes": [
+        "38"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "أسود": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768158351992-أسود-1768158516308-Screenshot-20251229-093641-Messenger.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "38"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": false,
+        "guide": {}
+      },
+      "createdAt": "2026-01-11T19:05:51.992Z",
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768158351992-1768158402189-Screenshot-20251229-093641-Messenger.jpg",
+      "updatedAt": "2026-01-11T19:12:14.012Z"
     }
   },
   "DELIVERY_PRICES": {
@@ -943,8 +979,8 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 946,
-    "remainingDays": 23,
+    "currentPoints": 933,
+    "remainingDays": 20,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "gratuit",
     "monthlyPoints": 1000,
@@ -1023,7 +1059,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-09T06:36:11.623Z"
+    "lastUpdated": "2026-01-11T21:10:45.840Z"
   },
   "PIXEL_CODES": {
     "facebook": {
