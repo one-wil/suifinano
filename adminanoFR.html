@@ -5131,23 +5131,12 @@
         }
         
         function showUploadImageModal(type, productId, color = null) {
-
-
-                       
-            
-            saveConfig();
-            loadProducts();
-           /* closeProductModal();*/
-            updateStats();
-        }  
-
-            
-
-            
-            
+        
             if (!checkServerConnection()) {
                 return;
             }
+            saveConfig();
+
             
             // Vérifier les points avant d'ouvrir la fenêtre de téléchargement d'image
             const currentPoints = getSecurityPoints();
