@@ -5126,20 +5126,13 @@
             
             saveConfig();
             loadProducts();
-            closeProductModal();
+           /* closeProductModal();*/
             updateStats();
         }
         
         function showUploadImageModal(type, productId, color = null) {
 
-            // ✅ احفظ البيانات الحالية أولاً (حلك الصحيح)
-    if (id && CONFIG.PRODUCTS[id]) {
-        CONFIG.PRODUCTS[id] = {
-            ...CONFIG.PRODUCTS[id],  // احتفظ بكل البيانات القديمة (الصور، الألوان، المقاسات)
-            ...product                // تحديث بالبيانات الجديدة (الاسم، السعر، الوصف)
-        };
-        saveConfig(); // حفظ فوري في localStorage
-    }
+            
             
             if (!checkServerConnection()) {
                 return;
@@ -5330,7 +5323,9 @@
                     setTimeout(() => {
                         closeUploadImageModal();
                         if (type === 'main') {
-                            loadProducts();
+                           
+                           loadProducts();
+                                                     
                             showEditProductModal(productId, CONFIG.PRODUCTS[productId]);
                         } else if (type === 'color') {
                             showColorImagesModal(productId);
