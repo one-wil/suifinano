@@ -5321,12 +5321,11 @@
                     
                     setTimeout(() => {
                         closeUploadImageModal();
-                        if (type === 'main') {
-                          
-                            saveConfig();
-
+                       if (type === 'main') {
+                      
                            loadProducts();
-                                                     
+                            saveConfig();
+                       
                             showEditProductModal(productId, CONFIG.PRODUCTS[productId]);
                         } else if (type === 'color') {
                             showColorImagesModal(productId);
