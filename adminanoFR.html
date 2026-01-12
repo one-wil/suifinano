@@ -1581,6 +1581,61 @@
             border-radius: 5px;
             transition: width 0.5s ease;
         }
+                .drag-none {
+            -webkit-user-drag: none;
+            user-drag: none;
+        }
+        
+        /* =============================================================================
+           💻 ZOOM 90% POUR TOUS LES APPAREILS
+           ============================================================================= */
+        
+        /* 90% sur tous les appareils */
+        html {
+            zoom: 90%;
+            -moz-transform: scale(0.9);
+            -moz-transform-origin: 0 0;
+            -o-transform: scale(0.9);
+            -o-transform-origin: 0 0;
+            -webkit-transform: scale(0.9);
+            -webkit-transform-origin: 0 0;
+        }
+        
+        /* إصلاحات للهواتف */
+        @media (max-width: 768px) {
+            .dashboard-layout {
+                min-height: 90vh;
+            }
+            
+            .main-content {
+                padding: 15px;
+            }
+            
+            .products-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            html {
+                zoom: 85%;
+                transform: scale(0.85);
+            }
+            
+            .dashboard-header {
+                padding: 10px 15px;
+                flex-direction: column;
+            }
+            
+            .modal {
+                margin: 5px;
+                max-height: 90vh;
+            }
+        }
+    
+
+
     </style>
 </head>
 <body>
