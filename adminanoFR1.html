@@ -4943,9 +4943,30 @@
         
 
         
-    function showAddProductModal() {
+    /*function showAddProductModal() {
           editingProductId = null;
             showEditProductModal(null, {});  
+}*/
+        function showAddProductModal() {
+    // إنشاء منتج جديد
+    const newId = Date.now();
+    CONFIG.PRODUCTS[newId] = {
+        name: "",
+        price: 0,
+        description: "",
+        category: "",
+        stock: 0,
+        featured: false,
+        availableColors: [],
+        availableSizes: [],
+        ageRanges: [],
+        colorImages: {},
+        sizeGuide: { enabled: false, guide: {} },
+        createdAt: new Date().toISOString()
+    };
+    
+    // فتح نافذة التعديل مباشرة
+    showEditProductModal(newId, CONFIG.PRODUCTS[newId]);
 }
 
 
