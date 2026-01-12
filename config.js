@@ -472,6 +472,74 @@ const STORE_CONFIG = {
       "createdAt": "2026-01-11T19:05:51.992Z",
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768158351992-1768158402189-Screenshot-20251229-093641-Messenger.jpg",
       "updatedAt": "2026-01-11T19:12:14.012Z"
+    },
+    "1768220444353": {
+      "name": "Hegeg",
+      "price": 5585858,
+      "description": "Fggg",
+      "category": "",
+      "stock": 0,
+      "featured": false,
+      "availableColors": [
+        "أبيض",
+        "أسود"
+      ],
+      "availableSizes": [
+        "S",
+        "M"
+      ],
+      "ageRanges": [],
+      "colorImages": {
+        "أبيض": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768220444353-أبيض-1768220886159-Screenshot-20251225-120948-Photo-Editor.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "S"
+            }
+          ]
+        },
+        "أسود": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768220444353-أسود-1768220910936-Screenshot-20251231-235307-Facebook.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "S"
+            },
+            {
+              "ageFrom": " ",
+              "ageTo": " ",
+              "size": "M"
+            }
+          ]
+        }
+      },
+      "sizeGuide": {
+        "enabled": true,
+        "guide": {
+          "M": {
+            "heightFrom": 0,
+            "heightTo": 0,
+            "weightFrom": 0,
+            "weightTo": 0
+          },
+          "S": {
+            "heightFrom": 0,
+            "heightTo": 0,
+            "weightFrom": 0,
+            "weightTo": 0
+          }
+        }
+      },
+      "createdAt": "2026-01-12T12:20:44.353Z",
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768220444353-1768220851418-Screenshot-20251225-120948-Photo-Editor.jpg",
+      "updatedAt": "2026-01-12T12:29:20.154Z"
     }
   },
   "DELIVERY_PRICES": {
@@ -979,7 +1047,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 931,
+    "currentPoints": 924,
     "remainingDays": 20,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "gratuit",
@@ -1059,7 +1127,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-12T11:12:18.297Z"
+    "lastUpdated": "2026-01-12T12:29:43.782Z"
   },
   "PIXEL_CODES": {
     "facebook": {
