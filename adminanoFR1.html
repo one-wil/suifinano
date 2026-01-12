@@ -3562,7 +3562,7 @@
                     
                     <div class="product-content">
                         <div class="product-title">
-                            <span>${product.name || 'Produit sans nom'}</span>
+                            <span>${product.name || ''}</span>
                             <div class="product-price">${(product.price || 0).toLocaleString()} DA</div>
                         </div>
                         
@@ -4096,7 +4096,7 @@
                                                 </div>
                                             `}
                                             <div>
-                                                <div style="font-weight: 600; color: var(--dark);">${product.name || 'Produit sans nom'}</div>
+                                                <div style="font-weight: 600; color: var(--dark);">${product.name || ''}</div>
                                                 <div style="font-size: 12px; color: var(--gray);">${(product.price || 0).toLocaleString()} DA</div>
                                             </div>
                                         </div>
@@ -4418,7 +4418,7 @@
                                                 <input type="checkbox" id="discount_product_${id}" 
                                                        ${CONFIG.DISCOUNTS.discountProducts?.includes(parseInt(id)) ? 'checked' : ''}
                                                        onchange="updateDiscountProduct(${id}, this.checked)">
-                                                <label for="discount_product_${id}">${product.name || 'Produit sans nom'}</label>
+                                                <label for="discount_product_${id}">${product.name || ''}</label>
                                             </div>
                                         `).join('')}
                                     </div>
@@ -4480,7 +4480,7 @@
                                                 <input type="checkbox" id="promo_product_${id}" 
                                                        ${CONFIG.DISCOUNTS.promoDiscountProducts?.includes(parseInt(id)) ? 'checked' : ''}
                                                        onchange="updatePromoDiscountProduct(${id}, this.checked)">
-                                                <label for="promo_product_${id}">${product.name || 'Produit sans nom'}</label>
+                                                <label for="promo_product_${id}">${product.name || ''}</label>
                                             </div>
                                         `).join('')}
                                     </div>
@@ -5097,7 +5097,7 @@
             });
             
             const productData = {
-                name: name || 'Produit sans nom',
+                name: name || '',
                 price: price,
                 stock: 0,
                 image: image,
