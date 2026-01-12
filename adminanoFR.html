@@ -1581,7 +1581,124 @@
             border-radius: 5px;
             transition: width 0.5s ease;
         }
+
+
+
+         .drag-none {
+            -webkit-user-drag: none;
+            user-drag: none;
+        }
+        
+        /* =============================================================================
+           📱💻 ZOOM DIFFÉRENT POUR MOBILE ET PC
+           ============================================================================= */
+        
+        /* Zoom 90% pour PC uniquement */
+        @media (min-width: 1025px) {
+            html {
+                zoom: 90%;
+                transform: scale(0.9);
+                transform-origin: top left;
+                width: 111.11%;
+                height: 111.11%;
+                overflow-x: hidden;
+            }
             
+            body {
+                width: 111.11%;
+                height: 111.11%;
+                overflow-x: auto;
+            }
+        }
+        
+        /* Zoom 50% pour mobiles uniquement */
+        @media (max-width: 768px) {
+            html {
+                zoom: 50%;
+                transform: scale(0.5);
+                transform-origin: top left;
+                width: 200%;
+                height: 200%;
+                overflow-x: hidden;
+            }
+            
+            body {
+                width: 200%;
+                height: 200%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                touch-action: manipulation;
+            }
+            
+            /* إصلاحات للتنسيقات على الهواتف مع Zoom 50% */
+            .dashboard-container {
+                width: 200%;
+                min-height: 200vh;
+            }
+            
+            .dashboard-layout {
+                min-height: 200vh;
+            }
+            
+            .main-content {
+                min-height: 200vh;
+                overflow-x: hidden;
+            }
+            
+            /* تكبير العناصر للتعويض عن Zoom الصغير */
+            .btn, .menu-item, .tab {
+                min-height: 80px;
+                min-width: 80px;
+                font-size: 28px;
+                padding: 20px 30px;
+            }
+            
+            .form-control {
+                font-size: 28px;
+                padding: 20px;
+                height: 70px;
+            }
+            
+            .modal {
+                width: 200%;
+                max-height: 200vh;
+            }
+            
+            .stat-value {
+                font-size: 56px;
+            }
+            
+            .product-price {
+                font-size: 42px;
+            }
+            
+            h1, h2, h3, h4 {
+                font-size: 200%;
+            }
+            
+            p, span, div, label {
+                font-size: 200%;
+            }
+        }
+        
+        /* تعديل للتابلت (768px - 1024px) */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            html {
+                zoom: 70%;
+                transform: scale(0.7);
+                transform-origin: top left;
+                width: 142.86%;
+                height: 142.86%;
+            }
+            
+            body {
+                width: 142.86%;
+                height: 142.86%;
+            }
+        }
+    
+        
+        
     </style>
 </head>
 <body>
