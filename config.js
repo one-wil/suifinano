@@ -1,6 +1,6 @@
 
 // =============================================================================
-// ⚙️ Main Store Settings File
+// ⚙️ Fichier de paramètres principal du magasin
 // =============================================================================
 
 const STORE_CONFIG = {
@@ -1047,10 +1047,10 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 918,
-    "remainingDays": 19,
+    "currentPoints": 916,
+    "remainingDays": 18,
     "lastReset": "2026-01-01T19:10:50.001Z",
-    "planType": "free",
+    "planType": "gratuit",
     "monthlyPoints": 1000,
     "resetPeriod": 30,
     "currentMonthDays": 30,
@@ -1127,7 +1127,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-12T21:04:04.539Z"
+    "lastUpdated": "2026-01-13T19:19:20.107Z"
   },
   "PIXEL_CODES": {
     "facebook": {
@@ -1699,7 +1699,7 @@ const STORE_CONFIG = {
 };
 
 // =============================================================================
-// 🛍️ Products Loading Function
+// 🛍️ Fonction de chargement des produits
 // =============================================================================
 
 function loadProductsConfig() {
@@ -1707,7 +1707,7 @@ function loadProductsConfig() {
 }
 
 // =============================================================================
-// 🚚 Delivery Loading Function
+// 🚚 Fonction de chargement des prix de livraison
 // =============================================================================
 
 function loadDeliveryConfig() {
@@ -1719,7 +1719,7 @@ function loadDeliveryConfig() {
 }
 
 // =============================================================================
-// 💰 Discount Loading Function
+// 💰 Fonction de chargement des paramètres de réduction
 // =============================================================================
 
 function loadDiscountConfig() {
@@ -1727,7 +1727,7 @@ function loadDiscountConfig() {
 }
 
 // =============================================================================
-// 🏪 Store Info Loading Function
+// 🏪 Fonction de chargement des informations du magasin
 // =============================================================================
 
 function loadStoreInfo() {
@@ -1735,7 +1735,7 @@ function loadStoreInfo() {
 }
 
 // =============================================================================
-// 🎨 Colors and Sizes Loading Function
+// 🎨 Fonction de chargement des couleurs et tailles
 // =============================================================================
 
 function loadSizesColorsConfig() {
@@ -1747,7 +1747,7 @@ function loadSizesColorsConfig() {
 }
 
 // =============================================================================
-// 📊 Pixel Loading Function
+// 📊 Fonction de chargement des paramètres de pixel
 // =============================================================================
 
 function loadPixelConfig() {
@@ -1755,7 +1755,7 @@ function loadPixelConfig() {
 }
 
 // =============================================================================
-// 📊 All Settings Loading Function
+// 📊 Fonction de chargement de tous les paramètres
 // =============================================================================
 
 function loadAllConfig() {
@@ -1763,7 +1763,7 @@ function loadAllConfig() {
 }
 
 // =============================================================================
-// 🔄 Settings Update Function
+// 🔄 Fonction de mise à jour des paramètres
 // =============================================================================
 
 function updateConfig(newConfig) {
