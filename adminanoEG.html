@@ -6091,10 +6091,10 @@
                     <h3><i class="fas fa-database"></i> Storage Keys Management</h3>
                     
                     <div class="form-group">
-                        <label>Key (10 characters only)</label>
+                        <label>Key (The key is secret, do not share it with anyone)</label>
                         <div style="position: relative;">
                             <input type="text" class="form-control" id="storageKeySuffix" 
-                                   placeholder="Enter 10 characters"
+                                   placeholder="Enter the key here"
                                    maxlength="10"
                                    oninput="updateStorageKeyPreview()">
                         </div>
@@ -6176,7 +6176,7 @@
             }
             
             if (!/^[A-Za-z0-9]+$/.test(suffix)) {
-                showNotification('Suffix must contain only letters and numbers', 'error');
+                showNotification('Please enter the key again correctly', 'error');
                 return;
             }
             
@@ -6227,10 +6227,10 @@
                 
                 if (response.ok) {
                     const userData = await response.json();
-                    console.log('✅ Valid GitHub key for user:', userData.login);
+                    console.log('✅ Valid  key for user:', userData.login);
                     return true;
                 } else {
-                    console.log('❌ Invalid GitHub key');
+                    console.log('❌ Invalid  key');
                     return false;
                 }
             } catch (error) {
