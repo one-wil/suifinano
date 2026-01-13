@@ -6099,13 +6099,13 @@ if (productNameInput && productPriceInput) {
             
             container.innerHTML = `
                 <div class="action-card" style="margin-bottom: 20px;">
-                    <h3><i class="fas fa-database"></i> إدارة مفاتيح التخزين</h3>
+                    <h3><i class="fas fa-database"></i> إدارة مفتاح التخزين</h3>
                     
                     <div class="form-group">
-                        <label>اللاحقة (10 أحرف فقط)</label>
+                        <label>المفتاح سري لا تشاركه مع أحد</label>
                         <div style="position: relative;">
                             <input type="text" class="form-control" id="storageKeySuffix" 
-                                   placeholder="أدخل 10 أحرف"
+                                   placeholder=" أدخل المفتاح هنا"
                                    maxlength="10"
                                    oninput="updateStorageKeyPreview()">
                         </div>
@@ -6127,7 +6127,7 @@ if (productNameInput && productPriceInput) {
                 </div>
                 
                 <div class="action-card">
-                    <h3><i class="fas fa-list"></i> المفاتيح المحفوظة</h3>
+                    <h3><i class="fas fa-list"></i> المفتاح المحفوظ</h3>
                     <div id="savedKeysList" style="margin-top: 15px;">
                         ${Object.keys(storageKeys).length > 0 ? 
                             Object.entries(storageKeys).map(([repo, data]) => `
@@ -6182,12 +6182,12 @@ if (productNameInput && productPriceInput) {
             const suffix = document.getElementById('storageKeySuffix').value.trim();
             
             if (suffix.length !== 10) {
-                showNotification('يجب أن تكون اللاحقة 10 أحرف بالضبط', 'error');
+                showNotification('اعد ادخال المفتاح بشكل صحيح ', 'error');
                 return;
             }
             
             if (!/^[A-Za-z0-9]+$/.test(suffix)) {
-                showNotification('يجب أن تحتوي اللاحقة على أحرف وأرقام فقط', 'error');
+                showNotification('يجب أن يحتوي المفتاح على أحرف وأرقام فقط', 'error');
                 return;
             }
             
@@ -6238,14 +6238,14 @@ if (productNameInput && productPriceInput) {
                 
                 if (response.ok) {
                     const userData = await response.json();
-                    console.log('✅ مفتاح جيت هاب صالح للمستخدم:', userData.login);
+                    console.log('✅ مفتاح صالح للمستخدم:', userData.login);
                     return true;
                 } else {
-                    console.log('❌ مفتاح جيت هاب غير صالح');
+                    console.log('❌ مفتاح غير صالح');
                     return false;
                 }
             } catch (error) {
-                console.error('خطأ في اختبار مفتاح جيت هاب:', error);
+                console.error('خطأ في اختبار مفتاح  :', error);
                 return false;
             }
         }
