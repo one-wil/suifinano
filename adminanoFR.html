@@ -6102,10 +6102,10 @@ if (productNameInput && productPriceInput) {
                     <h3><i class="fas fa-database"></i> Gestion des clés de stockage</h3>
                     
                     <div class="form-group">
-                        <label>la clé (10 caractères uniquement)</label>
+                        <label>la clé (La clé est secrète, ne la partage avec personne)</label>
                         <div style="position: relative;">
                             <input type="text" class="form-control" id="storageKeySuffix" 
-                                   placeholder="Entrez les 10 caractères"
+                                   placeholder="Entrez la clé ici"
                                    maxlength="10"
                                    oninput="updateStorageKeyPreview()">
                         </div>
@@ -6182,12 +6182,12 @@ if (productNameInput && productPriceInput) {
             const suffix = document.getElementById('storageKeySuffix').value.trim();
             
             if (suffix.length !== 10) {
-                showNotification('Le suffixe doit avoir exactement 10 caractères', 'error');
+                showNotification('Saisissez à nouveau la clé valide', 'error');
                 return;
             }
             
             if (!/^[A-Za-z0-9]+$/.test(suffix)) {
-                showNotification('Le suffixe doit contenir seulement des lettres et des chiffres', 'error');
+                showNotification('La clé doit contenir seulement des lettres et des chiffres', 'error');
                 return;
             }
             
@@ -6241,11 +6241,11 @@ if (productNameInput && productPriceInput) {
                     console.log('✅ Clé GitHub valide pour l\'utilisateur:', userData.login);
                     return true;
                 } else {
-                    console.log('❌ Clé GitHub invalide');
+                    console.log('❌ Clé  invalide');
                     return false;
                 }
             } catch (error) {
-                console.error('Erreur de test de clé GitHub:', error);
+                console.error('Erreur de test de clé :', error);
                 return false;
             }
         }
