@@ -1042,7 +1042,7 @@
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 910,
+    "currentPoints": 908,
     "remainingDays": 18,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "gratuit",
@@ -1122,7 +1122,7 @@
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-14T00:06:20.551Z"
+    "lastUpdated": "2026-01-14T00:09:10.660Z"
   },
   "PIXEL_CODES": {
     "facebook": {
