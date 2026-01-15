@@ -1,15 +1,15 @@
 
 // =============================================================================
-// ⚙️ Fichier de paramètres principal du magasin
+// ⚙️ ملف الإعدادات الرئيسي للمتجر
 // =============================================================================
 
 const STORE_CONFIG = {
   "PRODUCTS": {
     "1766689786058": {
-      "name": "begger nike ",
+      "name": "Ensemble nike ",
       "price": 5000,
       "description": "",
-      "category": "ملابس رجالية",
+      "category": "",
       "stock": 0,
       "featured": false,
       "availableColors": [
@@ -73,7 +73,7 @@ const STORE_CONFIG = {
       },
       "createdAt": "2025-12-25T19:09:46.058Z",
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766689786058-1766836919721-1000056028.jpg",
-      "updatedAt": "2025-12-29T17:02:55.684Z"
+      "updatedAt": "2026-01-15T19:42:31.360Z"
     },
     "1766870645677": {
       "name": "بدلة رياضية",
@@ -140,12 +140,12 @@ const STORE_CONFIG = {
       "ageRanges": []
     },
     "1766873058465": {
-      "name": "فستان الافراح",
+      "name": " فستان الافراح للاطفال",
       "price": 5600,
       "stock": 0,
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766873058465-1766873089731-modle6.jpg",
       "description": "",
-      "category": "ملابس أطفال",
+      "category": "",
       "availableSizes": [
         "S",
         "M"
@@ -155,7 +155,7 @@ const STORE_CONFIG = {
       ],
       "featured": false,
       "createdAt": "2025-12-27T22:04:18.465Z",
-      "updatedAt": "2025-12-29T16:54:12.804Z",
+      "updatedAt": "2026-01-15T19:41:46.996Z",
       "colorImages": {
         "أحمر": {
           "images": [
@@ -292,7 +292,7 @@ const STORE_CONFIG = {
       "updatedAt": "2025-12-29T20:13:39.348Z"
     },
     "1767039342242": {
-      "name": "KAJOAL",
+      "name": "Casual style ",
       "price": 2500,
       "description": "",
       "category": "",
@@ -325,7 +325,7 @@ const STORE_CONFIG = {
       },
       "createdAt": "2025-12-29T20:15:42.243Z",
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1767039342242-1767039389359-photo-2025-11-27-21-31-49.jpg",
-      "updatedAt": "2025-12-29T20:18:56.786Z"
+      "updatedAt": "2026-01-15T19:43:05.888Z"
     },
     "1767648373014": {
       "name": "عباية",
@@ -473,16 +473,16 @@ const STORE_CONFIG = {
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768158351992-1768158402189-Screenshot-20251229-093641-Messenger.jpg",
       "updatedAt": "2026-01-11T19:12:14.012Z"
     },
-    "1768220444353": {
-      "name": "Hegeg",
-      "price": 5585858,
-      "description": "Fggg",
+    "1768506935804": {
+      "name": "ملابس أطفال تركية ",
+      "price": 4000,
+      "description": "ملابس أطفال جودة عالية ",
       "category": "",
       "stock": 0,
       "featured": false,
       "availableColors": [
-        "أبيض",
-        "أسود"
+        "أحمر",
+        "أزرق"
       ],
       "availableSizes": [
         "S",
@@ -490,31 +490,31 @@ const STORE_CONFIG = {
       ],
       "ageRanges": [],
       "colorImages": {
-        "أبيض": {
+        "أحمر": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768220444353-أبيض-1768220886159-Screenshot-20251225-120948-Photo-Editor.jpg"
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768506935804-أحمر-1768507136483-modal3.jpg"
           ],
           "ageRanges": [
             {
-              "ageFrom": " ",
-              "ageTo": " ",
+              "ageFrom": "7",
+              "ageTo": "5",
               "size": "S"
             }
           ]
         },
-        "أسود": {
+        "أزرق": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768220444353-أسود-1768220910936-Screenshot-20251231-235307-Facebook.jpg"
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768506935804-أزرق-1768507232562-modal4.jpg"
           ],
           "ageRanges": [
             {
-              "ageFrom": " ",
-              "ageTo": " ",
+              "ageFrom": "7",
+              "ageTo": "5",
               "size": "S"
             },
             {
-              "ageFrom": " ",
-              "ageTo": " ",
+              "ageFrom": "10",
+              "ageTo": "9",
               "size": "M"
             }
           ]
@@ -523,23 +523,23 @@ const STORE_CONFIG = {
       "sizeGuide": {
         "enabled": true,
         "guide": {
-          "M": {
-            "heightFrom": 0,
-            "heightTo": 0,
-            "weightFrom": 0,
-            "weightTo": 0
-          },
           "S": {
-            "heightFrom": 0,
-            "heightTo": 0,
-            "weightFrom": 0,
-            "weightTo": 0
+            "heightFrom": 70,
+            "heightTo": 90,
+            "weightFrom": 20,
+            "weightTo": 25
+          },
+          "M": {
+            "heightFrom": 90,
+            "heightTo": 100,
+            "weightFrom": 25,
+            "weightTo": 30
           }
         }
       },
-      "createdAt": "2026-01-12T12:20:44.353Z",
-      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768220444353-1768220851418-Screenshot-20251225-120948-Photo-Editor.jpg",
-      "updatedAt": "2026-01-12T12:29:20.154Z"
+      "createdAt": "2026-01-15T19:55:35.804Z",
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768506935804-1768507018637-modal3.jpg",
+      "updatedAt": "2026-01-15T20:04:49.005Z"
     }
   },
   "DELIVERY_PRICES": {
@@ -1047,10 +1047,10 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 908,
-    "remainingDays": 18,
+    "currentPoints": 901,
+    "remainingDays": 16,
     "lastReset": "2026-01-01T19:10:50.001Z",
-    "planType": "gratuit",
+    "planType": "مجاني",
     "monthlyPoints": 1000,
     "resetPeriod": 30,
     "currentMonthDays": 30,
@@ -1127,7 +1127,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-14T00:09:11.777Z"
+    "lastUpdated": "2026-01-15T20:05:30.458Z"
   },
   "PIXEL_CODES": {
     "facebook": {
@@ -1699,7 +1699,7 @@ const STORE_CONFIG = {
 };
 
 // =============================================================================
-// 🛍️ Fonction de chargement des produits
+// 🛍️ دالة تحميل المنتجات
 // =============================================================================
 
 function loadProductsConfig() {
@@ -1707,7 +1707,7 @@ function loadProductsConfig() {
 }
 
 // =============================================================================
-// 🚚 Fonction de chargement des prix de livraison
+// 🚚 دالة تحميل أسعار التوصيل
 // =============================================================================
 
 function loadDeliveryConfig() {
@@ -1719,7 +1719,7 @@ function loadDeliveryConfig() {
 }
 
 // =============================================================================
-// 💰 Fonction de chargement des paramètres de réduction
+// 💰 دالة تحميل إعدادات الخصم
 // =============================================================================
 
 function loadDiscountConfig() {
@@ -1727,7 +1727,7 @@ function loadDiscountConfig() {
 }
 
 // =============================================================================
-// 🏪 Fonction de chargement des informations du magasin
+// 🏪 دالة تحميل معلومات المتجر
 // =============================================================================
 
 function loadStoreInfo() {
@@ -1735,7 +1735,7 @@ function loadStoreInfo() {
 }
 
 // =============================================================================
-// 🎨 Fonction de chargement des couleurs et tailles
+// 🎨 دالة تحميل الألوان والمقاسات
 // =============================================================================
 
 function loadSizesColorsConfig() {
@@ -1747,7 +1747,7 @@ function loadSizesColorsConfig() {
 }
 
 // =============================================================================
-// 📊 Fonction de chargement des paramètres de pixel
+// 📊 دالة تحميل إعدادات البكسل
 // =============================================================================
 
 function loadPixelConfig() {
@@ -1755,7 +1755,7 @@ function loadPixelConfig() {
 }
 
 // =============================================================================
-// 📊 Fonction de chargement de tous les paramètres
+// 📊 دالة تحميل جميع الإعدادات
 // =============================================================================
 
 function loadAllConfig() {
@@ -1763,7 +1763,7 @@ function loadAllConfig() {
 }
 
 // =============================================================================
-// 🔄 Fonction de mise à jour des paramètres
+// 🔄 دالة تحديث الإعدادات
 // =============================================================================
 
 function updateConfig(newConfig) {
