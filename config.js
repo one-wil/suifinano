@@ -473,10 +473,10 @@ const STORE_CONFIG = {
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768158351992-1768158402189-Screenshot-20251229-093641-Messenger.jpg",
       "updatedAt": "2026-01-11T19:12:14.012Z"
     },
-    "1768506935804": {
-      "name": "ملابس أطفال تركية ",
+    "1768509081724": {
+      "name": "ملابس أطفال تركية",
       "price": 4000,
-      "description": "ملابس أطفال جودة عالية ",
+      "description": "لباس عالي الجودة",
       "category": "",
       "stock": 0,
       "featured": false,
@@ -492,19 +492,7 @@ const STORE_CONFIG = {
       "colorImages": {
         "أحمر": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768506935804-أحمر-1768507136483-modal3.jpg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": "7",
-              "ageTo": "5",
-              "size": "S"
-            }
-          ]
-        },
-        "أزرق": {
-          "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768506935804-أزرق-1768507232562-modal4.jpg"
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768509081724-أحمر-1768509356759-modal3.jpg"
           ],
           "ageRanges": [
             {
@@ -513,8 +501,25 @@ const STORE_CONFIG = {
               "size": "S"
             },
             {
-              "ageFrom": "10",
-              "ageTo": "9",
+              "ageFrom": "9",
+              "ageTo": "7",
+              "size": "M"
+            }
+          ]
+        },
+        "أزرق": {
+          "images": [
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768509081724-أزرق-1768509414529-modal4.jpg"
+          ],
+          "ageRanges": [
+            {
+              "ageFrom": "7",
+              "ageTo": "5",
+              "size": "S"
+            },
+            {
+              "ageFrom": "9",
+              "ageTo": "7",
               "size": "M"
             }
           ]
@@ -524,7 +529,7 @@ const STORE_CONFIG = {
         "enabled": true,
         "guide": {
           "S": {
-            "heightFrom": 70,
+            "heightFrom": 80,
             "heightTo": 90,
             "weightFrom": 20,
             "weightTo": 25
@@ -537,9 +542,9 @@ const STORE_CONFIG = {
           }
         }
       },
-      "createdAt": "2026-01-15T19:55:35.804Z",
-      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768506935804-1768507018637-modal3.jpg",
-      "updatedAt": "2026-01-15T20:04:49.005Z"
+      "createdAt": "2026-01-15T20:31:21.725Z",
+      "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768509081724-1768509154814-modal3.jpg",
+      "updatedAt": "2026-01-15T20:35:14.930Z"
     }
   },
   "DELIVERY_PRICES": {
@@ -822,7 +827,7 @@ const STORE_CONFIG = {
       "0671466489",
       "0551102155"
     ],
-    "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1768349170207-Screenshot-20251206-224738-Gallery.jpg",
+    "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1768591325887-Screenshot-20260105-233819-Samsung-Internet.jpg",
     "facebookUrl": "https://www.facebook.com/groups/3131209233768404/?ref=share&mibextid=NSMWBT",
     "instagramUrl": "",
     "messengerUrl": "",
@@ -1047,8 +1052,8 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 901,
-    "remainingDays": 16,
+    "currentPoints": 891,
+    "remainingDays": 15,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "مجاني",
     "monthlyPoints": 1000,
@@ -1127,7 +1132,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-15T20:05:30.458Z"
+    "lastUpdated": "2026-01-16T19:22:22.191Z"
   },
   "PIXEL_CODES": {
     "facebook": {
