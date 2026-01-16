@@ -544,7 +544,7 @@ const STORE_CONFIG = {
       },
       "createdAt": "2026-01-15T20:31:21.725Z",
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1768509081724-1768509154814-modal3.jpg",
-      "updatedAt": "2026-01-15T20:35:14.930Z"
+      "updatedAt": "2026-01-16T20:42:31.942Z"
     }
   },
   "DELIVERY_PRICES": {
@@ -789,7 +789,7 @@ const STORE_CONFIG = {
       "minQuantity": 1
     },
     "home": {
-      "enabled": true,
+      "enabled": false,
       "minAmount": 0,
       "wilayas": [],
       "minQuantity": 1
@@ -798,7 +798,8 @@ const STORE_CONFIG = {
       1765137505304,
       1765145035052,
       1765145814607,
-      1766870645677
+      1766870645677,
+      1768509081724
     ]
   },
   "DISCOUNTS": {
@@ -1052,7 +1053,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 884,
+    "currentPoints": 882,
     "remainingDays": 15,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "مجاني",
@@ -1132,7 +1133,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-16T19:37:26.092Z"
+    "lastUpdated": "2026-01-16T21:03:50.439Z"
   },
   "PIXEL_CODES": {
     "facebook": {
@@ -1156,6 +1157,80 @@ const STORE_CONFIG = {
         "initiateCheckout": true,
         "viewContent": true
       }
+    }
+  },
+  "LANDING_PAGES": {
+    "templates": [
+      {
+        "id": "template1",
+        "name": "قالب بسيط",
+        "description": "صفحة هبوط بسيطة وعصرية",
+        "features": [
+          "صورة كبيرة",
+          "وصف مختصر",
+          "زر شراء واضح"
+        ]
+      },
+      {
+        "id": "template2",
+        "name": "قالب متميز",
+        "description": "صفحة هبوط متكاملة مع مميزات",
+        "features": [
+          "معرض صور",
+          "معلومات مفصلة",
+          "أسئلة شائعة",
+          "تعليقات العملاء"
+        ]
+      },
+      {
+        "id": "template3",
+        "name": "قالب ترويجي",
+        "description": "صفحة هبوط مخصصة للعروض",
+        "features": [
+          "عداد تنازلي",
+          "عرض خاص",
+          "شهادة جودة",
+          "ضمان رضا"
+        ]
+      }
+    ],
+    "pages": {
+      "1766870645677": {
+        "productId": 1766870645677,
+        "enabled": true,
+        "title": "بدلة رياضية",
+        "subtitle": "أفضل عرض لهذا المنتج",
+        "description": "",
+        "template": "template1",
+        "features": [
+          "جودة عالية",
+          "توصيل سريع",
+          "ضمان الجودة",
+          "دعم فني"
+        ],
+        "testimonials": [],
+        "faq": [],
+        "createdAt": "2026-01-16T20:12:16.244Z",
+        "updatedAt": "2026-01-16T20:12:16.244Z"
+      }
+    },
+    "analytics": {
+      "1766870645677": {
+        "views": 0,
+        "clicks": 0,
+        "conversions": 0,
+        "averageTime": 0,
+        "lastVisit": null,
+        "dailyStats": {},
+        "sourceStats": {}
+      }
+    },
+    "settings": {
+      "autoGenerate": true,
+      "defaultTemplate": "template1",
+      "trackClicks": true,
+      "trackTime": true,
+      "conversionGoal": "purchase"
     }
   },
   "PRODUCT_CATEGORIES": [
