@@ -785,13 +785,7 @@ const STORE_CONFIG = {
     "desk": {
       "enabled": true,
       "minAmount": 0,
-      "wilayas": [
-        "01 - أدرار",
-        "02 - الشلف",
-        "03 - الأغواط",
-        "05 - باتنة",
-        "04 - أم البواقي"
-      ],
+      "wilayas": [],
       "minQuantity": 1
     },
     "home": {
@@ -1059,7 +1053,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 874,
+    "currentPoints": 872,
     "remainingDays": 15,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "مجاني",
@@ -1139,7 +1133,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-17T16:05:07.985Z"
+    "lastUpdated": "2026-01-17T16:09:49.086Z"
   },
   "PIXEL_CODES": {
     "facebook": {
