@@ -778,7 +778,7 @@
   },
   "FREE_DELIVERY": {
     "desk": {
-      "enabled": true,
+      "enabled": false,
       "minAmount": 0,
       "wilayas": [
         "01 - أدرار",
@@ -1052,7 +1052,7 @@
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 878,
+    "currentPoints": 876,
     "remainingDays": 15,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "مجاني",
@@ -1132,7 +1132,7 @@
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-17T15:51:43.300Z"
+    "lastUpdated": "2026-01-17T15:57:53.203Z"
   },
   "PIXEL_CODES": {
     "facebook": {
