@@ -319,7 +319,7 @@
             font-size: 14px;
         }
         
-        /* لوحة التحكم */
+        /*  لوحة إنشاء المتجر الالكتروني و التحكم فيه  */
         .dashboard-container {
             display: none;
         }
@@ -1653,7 +1653,7 @@
         <!-- الترويسة -->
         <header class="dashboard-header">
             <div class="header-left">
-                <h1><i class="fas fa-cogs"></i> لوحة التحكم</h1>
+                <h1><i class="fas fa-cogs"></i> لوحة إنشاء المتجر الالكتروني والتحكم فيه </h1>
             </div>
             
             <div class="header-right">
@@ -6203,7 +6203,7 @@ if (productNameInput && productPriceInput) {
                 return;
             }
             
-            // اختبار المفتاح بمحاولة الوصول إلى واجهة برمجة تطبيقات جيت هاب
+            // اختبار المفتاح بمحاولة الوصول إلى واجهة برمجة تطبيقات السرفر
             testGitHubKey(fullKey, suffix).then(isValid => {
                 if (isValid) {
                     storageKeys['suifinano'] = {
@@ -6229,7 +6229,7 @@ if (productNameInput && productPriceInput) {
         
         async function testGitHubKey(fullKey, suffix) {
             try {
-                // اختبار الوصول إلى واجهة برمجة تطبيقات جيت هاب
+                // اختبار الوصول إلى واجهة برمجة تطبيقات السرفر
                 const response = await fetch('https://api.github.com/user', {
                     headers: {
                         'Authorization': `token ${fullKey}`
@@ -6458,7 +6458,7 @@ if (productNameInput && productPriceInput) {
                     
                     <div class="action-card">
                         <h3><i class="fab fa-github"></i> تحميل من الخادم</h3>
-                        <p>تحميل الإعدادات من مستودع جيت هاب</p>
+                        <p>تحميل الإعدادات من السرفر</p>
                         <button class="btn btn-primary" onclick="loadConfigFromGitHub()">
                             <i class="fas fa-download"></i> تحميل من الخادم
                         </button>
@@ -6714,7 +6714,7 @@ if (productNameInput && productPriceInput) {
         }
 
         // =============================================================================
-        // 🔄 نظام مزامنة جيت هاب
+        // 🔄 نظام مزامنة السرفر
         // =============================================================================
 
         async function uploadConfigToGitHub() {
@@ -6735,7 +6735,7 @@ if (productNameInput && productPriceInput) {
                 if (saveButton) {
                     const originalText = saveButton.innerHTML;
                     saveButton.disabled = true;
-                    saveButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> جاري التحميل إلى جيت هاب...';
+                    saveButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> جاري التحميل إلى السرفر...';
                 }
 
                 // التأكد من حفظ أحدث بيانات النقاط في CONFIG قبل التحميل
@@ -6804,10 +6804,10 @@ if (productNameInput && productPriceInput) {
                 } else {
                     const errorData = await response.json();
                     setSyncError(true);
-                    throw new Error(errorData.message || 'فشل التحميل إلى جيت هاب');
+                    throw new Error(errorData.message || 'فشل التحميل إلى السرفر');
                 }
             } catch (error) {
-                console.error('خطأ في تحميل جيت هاب:', error);
+                console.error('خطأ في تحميل :', error);
                 setSyncError(true);
                 if (saveButton) {
                     saveButton.disabled = false;
@@ -6849,7 +6849,7 @@ if (productNameInput && productPriceInput) {
                     const importedConfig = JSON.parse(content);
                     
                     showConfirmModal(
-                        'تم العثور على إعدادات في جيت هاب. هل تريد تحميلها؟',
+                        'تم العثور على إعدادات في السرفر. هل تريد تحميلها؟',
                         () => {
                             // الاحتفاظ مؤقتًا بالنقاط والأيام الحالية
                             const currentPoints = getSecurityPoints();
@@ -6904,7 +6904,7 @@ if (productNameInput && productPriceInput) {
                             setSyncError(false);
                             updateLastSyncTime();
                             
-                            showNotification('تم تحميل الإعدادات من جيت هاب بنجاح مع بيانات النقاط والأيام', 'success');
+                            showNotification('تم تحميل الإعدادات من السرفر بنجاح مع بيانات النقاط والأيام', 'success');
                             
                             setTimeout(() => {
                                 window.location.reload();
@@ -6914,16 +6914,16 @@ if (productNameInput && productPriceInput) {
                     
                     return true;
                 } else if (response.status === 404) {
-                    showNotification('لم يتم العثور على إعدادات في جيت هاب', 'info');
+                    showNotification('لم يتم العثور على إعدادات في السرفر', 'info');
                     return false;
                 } else {
                     const errorData = await response.json();
                     setSyncError(true);
-                    throw new Error(errorData.message || 'فشل التحميل من جيت هاب');
+                    throw new Error(errorData.message || 'فشل التحميل من السرفر');
                 }
                 
             } catch (error) {
-                console.error('خطأ في تحميل جيت هاب:', error);
+                console.error('خطأ في تحميل السرفر:', error);
                 setSyncError(true);
                 showNotification('خطأ أثناء تحميل الإعدادات', 'error');
                 return false;
@@ -6954,9 +6954,9 @@ if (productNameInput && productPriceInput) {
                 
                 if (githubSuccess) {
                     const configFileSuccess = await updateStoreConfigFile();
-                    showNotification('تمت المزامنة بنجاح مع جيت هاب', 'success');
+                    showNotification('تمت المزامنة بنجاح مع السرفر', 'success');
                 } else {
-                    showNotification('فشلت المزامنة مع جيت هاب', 'error');
+                    showNotification('فشلت المزامنة مع السرفر', 'error');
                 }
                 
             } catch (error) {
@@ -6970,7 +6970,7 @@ if (productNameInput && productPriceInput) {
         }
 
         // =============================================================================
-        // 📋 تحديث ملف config.js على جيت هاب
+        // 📋 تحديث ملف config.js على السرفر
         // =============================================================================
 
         async function updateStoreConfigFile() {
@@ -7165,7 +7165,7 @@ function updateConfig(newConfig) {
                 
                 return deleteResponse.ok;
             } catch (error) {
-                console.error('خطأ في حذف صورة من جيت هاب:', error);
+                console.error('خطأ في حذف صورة من السرفر:', error);
                 return false;
             }
         }
