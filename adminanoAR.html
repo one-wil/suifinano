@@ -1797,7 +1797,7 @@
                         
                         <div class="action-card">
                             <h3><i class="fas fa-sync-alt"></i> مزامنة البيانات</h3>
-                            <p>مزامنة جميع الإعدادات والبيانات مع الخادم.</p>
+                            <p>مزامنة جميع الإعدادات والبيانات مع السرفر</p>
                             <button class="btn btn-success" onclick="startQuickSave()">
                                 <i class="fas fa-save"></i> حفظ ومزامنة
                             </button>
@@ -3153,7 +3153,7 @@
             const syncStatus = document.getElementById('syncStatus');
             if (syncStatus) {
                 if (status) {
-                    syncStatus.innerHTML = '<i class="fas fa-exclamation-triangle"></i> مشكلة في الخادم';
+                    syncStatus.innerHTML = '<i class="fas fa-exclamation-triangle"></i> مشكلة في السرفر';
                     syncStatus.style.color = 'var(--warning)';
                 } else {
                     updateLastSyncTime();
@@ -3433,7 +3433,7 @@
             
             if (lastGitHubSync) {
                 if (statusText) statusText += ' | ';
-                statusText += `آخر مزامنة مع الخادم: ${formatDate(lastGitHubSync)}`;
+                statusText += `آخر مزامنة مع السرفر: ${formatDate(lastGitHubSync)}`;
             }
             
             if (!statusText) {
@@ -6450,23 +6450,23 @@ if (productNameInput && productPriceInput) {
                     
                     <div class="action-card">
                         <h3><i class="fas fa-sync-alt"></i> مزامنة كاملة</h3>
-                        <p>مزامنة جميع البيانات مع الخادم (تخصم نقطتين)</p>
+                        <p>مزامنة جميع البيانات مع السرفر (تخصم نقطتين)</p>
                         <button class="btn btn-success" onclick="startFullSync()">
                             <i class="fas fa-sync-alt"></i> مزامنة كاملة
                         </button>
                     </div>
                     
                     <div class="action-card">
-                        <h3><i class="fab fa-github"></i> تحميل من الخادم</h3>
+                        <h3><i class="fab fa-github"></i> تحميل من السرفر</h3>
                         <p>تحميل الإعدادات من السرفر</p>
                         <button class="btn btn-primary" onclick="loadConfigFromGitHub()">
-                            <i class="fas fa-download"></i> تحميل من الخادم
+                            <i class="fas fa-download"></i> تحميل من السرفر
                         </button>
                     </div>
                     
                     <div class="action-card">
                         <h3><i class="fas fa-trash-alt"></i> تنظيف الصور</h3>
-                        <p>حذف الصور غير المستخدمة من الخادم</p>
+                        <p>حذف الصور غير المستخدمة من السرفر</p>
                         <button class="btn btn-warning" onclick="cleanUnusedImages()">
                             <i class="fas fa-broom"></i> تنظيف الآن
                         </button>
@@ -6505,7 +6505,7 @@ if (productNameInput && productPriceInput) {
         
         function startQuickSave() {
             if (!checkServerConnection()) {
-                showNotification('لا يوجد اتصال بالخادم', 'error');
+                showNotification('لا يوجد اتصال بالسرفر', 'error');
                 return;
             }
             
@@ -6523,7 +6523,7 @@ if (productNameInput && productPriceInput) {
         
         function startFullSync() {
             if (!checkServerConnection()) {
-                showNotification('لا يوجد اتصال بالخادم', 'error');
+                showNotification('لا يوجد اتصال بالسرفر', 'error');
                 return;
             }
             
@@ -6602,7 +6602,7 @@ if (productNameInput && productPriceInput) {
 
         async function cleanUnusedImages() {
             if (!checkServerConnection()) {
-                showNotification('لا يوجد اتصال بالخادم', 'error');
+                showNotification('لا يوجد اتصال بالسرفر', 'error');
                 return;
             }
             
@@ -6862,7 +6862,7 @@ if (productNameInput && productPriceInput) {
                             
                             // إذا كانت هناك بيانات نقاط على الخادم، استخدامها
                             if (importedConfig.POINTS_SYSTEM && importedConfig.POINTS_SYSTEM.currentPoints !== undefined) {
-                                console.log('📥 تحميل بيانات النقاط من الخادم:', importedConfig.POINTS_SYSTEM);
+                                console.log('📥 تحميل بيانات النقاط من السرفر:', importedConfig.POINTS_SYSTEM);
                                 
                                 // استخدام بيانات النقاط من الخادم
                                 CONFIG.POINTS_SYSTEM = importedConfig.POINTS_SYSTEM;
@@ -6941,7 +6941,7 @@ if (productNameInput && productPriceInput) {
             
             try {
                 if (!checkServerConnection()) {
-                    showNotification('لا يوجد اتصال بالخادم', 'error');
+                    showNotification('لا يوجد اتصال بالسرفر', 'error');
                     return;
                 }
                 
