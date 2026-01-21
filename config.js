@@ -830,11 +830,12 @@ const STORE_CONFIG = {
     ],
     "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1768591438821-Screenshot-20260106-002703-Gallery.jpg",
     "facebookUrl": "https://www.facebook.com/groups/3131209233768404/?ref=share&mibextid=NSMWBT",
-    "instagramUrl": "",
-    "messengerUrl": "",
-    "viberNumber": "",
+    "instagramUrl": "hffhhh",
+    "messengerUrl": "hfhhh",
+    "viberNumber": "hffh",
     "whatsappNumber": "213671466489",
-    "whatsappUrl": "https://wa.me/213671466489"
+    "whatsappUrl": "https://wa.me/213671466489",
+    "tiktokUrl": "hfdhh"
   },
   "GOOGLE_SHEETS": {
     "url": "https://docs.google.com/spreadsheets/d/1B6um1tNw0Uh4NJvLjF5zUX6palzubXv1UeH5gSIt_Go/edit?gid=774585379#gid=774585379",
@@ -1053,7 +1054,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 862,
+    "currentPoints": 860,
     "remainingDays": 11,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "gratuit",
@@ -1133,7 +1134,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-21T09:32:51.999Z"
+    "lastUpdated": "2026-01-21T14:17:02.380Z"
   },
   "PIXEL_CODES": {
     "facebook": {
