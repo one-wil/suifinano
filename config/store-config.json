@@ -76,7 +76,7 @@
       "stock": 0,
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-1766870714812-IMG-20251223-WA0007.jpg",
       "description": "",
-      "category": "ملابس رجالية",
+      "category": "",
       "availableSizes": [
         "S",
         "M",
@@ -89,7 +89,7 @@
       ],
       "featured": false,
       "createdAt": "2025-12-27T21:24:05.677Z",
-      "updatedAt": "2025-12-29T17:03:04.163Z",
+      "updatedAt": "2026-01-21T04:53:41.384Z",
       "colorImages": {
         "أحمر": {
           "images": [
@@ -117,7 +117,8 @@
         },
         "أبيض": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-أبيض-1766870817310-IMG-20251223-WA0003.jpg"
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-أبيض-1766870817310-IMG-20251223-WA0003.jpg",
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-أبيض-1768971206872-Screenshot-20251221-233746-Facebook.jpg"
           ],
           "ageRanges": [
             {
@@ -780,7 +781,10 @@
     "desk": {
       "enabled": true,
       "minAmount": 0,
-      "wilayas": [],
+      "wilayas": [
+        "01 - أدرار",
+        "02 - الشلف"
+      ],
       "minQuantity": 1
     },
     "home": {
@@ -798,7 +802,7 @@
     ]
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": false,
+    "enableQuantityDiscount": true,
     "minQuantityForDiscount": 1,
     "discountPerItem": 500,
     "discountScope": "selected",
@@ -806,7 +810,7 @@
       1767039342242,
       1767650018376
     ],
-    "enablePromotionalDiscount": false,
+    "enablePromotionalDiscount": true,
     "promotionalDiscountPercent": 20,
     "promotionalDiscountedPrice": null,
     "promoDiscountScope": "selected",
@@ -1048,10 +1052,10 @@
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 856,
-    "remainingDays": 12,
+    "currentPoints": 867,
+    "remainingDays": 11,
     "lastReset": "2026-01-01T19:10:50.001Z",
-    "planType": "gratuit",
+    "planType": "مجاني",
     "monthlyPoints": 1000,
     "resetPeriod": 30,
     "currentMonthDays": 30,
@@ -1128,11 +1132,11 @@
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-20T17:01:24.141Z"
+    "lastUpdated": "2026-01-21T04:53:46.047Z"
   },
   "PIXEL_CODES": {
     "facebook": {
-      "enabled": false,
+      "enabled": true,
       "pixelId": "",
       "events": {
         "pageView": true,
@@ -1143,7 +1147,7 @@
       }
     },
     "tiktok": {
-      "enabled": false,
+      "enabled": true,
       "pixelId": "",
       "events": {
         "pageView": true,
@@ -1154,6 +1158,125 @@
       }
     }
   },
+  "LANDING_PAGES": {
+    "templates": [
+      {
+        "id": "template1",
+        "name": "قالب بسيط",
+        "description": "صفحة هبوط بسيطة وعصرية",
+        "features": [
+          "صورة كبيرة",
+          "وصف مختصر",
+          "زر شراء واضح"
+        ]
+      },
+      {
+        "id": "template2",
+        "name": "قالب متميز",
+        "description": "صفحة هبوط متكاملة مع مميزات",
+        "features": [
+          "معرض صور",
+          "معلومات مفصلة",
+          "أسئلة شائعة",
+          "تعليقات العملاء"
+        ]
+      },
+      {
+        "id": "template3",
+        "name": "قالب ترويجي",
+        "description": "صفحة هبوط مخصصة للعروض",
+        "features": [
+          "عداد تنازلي",
+          "عرض خاص",
+          "شهادة جودة",
+          "ضمان رضا"
+        ]
+      }
+    ],
+    "pages": {
+      "1766870645677": {
+        "productId": 1766870645677,
+        "enabled": true,
+        "title": "بدلة رياضية",
+        "subtitle": "أفضل عرض لهذا المنتج",
+        "description": "",
+        "template": "template1",
+        "features": [
+          "جودة عالية",
+          "توصيل سريع",
+          "ضمان الجودة",
+          "دعم فني"
+        ],
+        "testimonials": [],
+        "faq": [],
+        "createdAt": "2026-01-16T20:12:16.244Z",
+        "updatedAt": "2026-01-16T20:12:16.244Z"
+      }
+    },
+    "analytics": {
+      "1766870645677": {
+        "views": 0,
+        "clicks": 0,
+        "conversions": 0,
+        "averageTime": 0,
+        "lastVisit": null,
+        "dailyStats": {},
+        "sourceStats": {}
+      }
+    },
+    "settings": {
+      "autoGenerate": true,
+      "defaultTemplate": "template1",
+      "trackClicks": true,
+      "trackTime": true,
+      "conversionGoal": "purchase"
+    }
+  },
+  "PRODUCT_CATEGORIES": [
+    "ملابس أطفال",
+    "ملابس رجالية",
+    "ملابس نسائية",
+    "أحذية",
+    "عطور رجالية",
+    "عطور نسائية",
+    "قبعات",
+    "ساعات رجالية",
+    "ساعات نسائية"
+  ],
+  "HAT_TYPES": [
+    "بيسبول",
+    "بريه",
+    "قبعة شمس",
+    "قبعة صوف",
+    "بكيني",
+    "قبعة رياضية",
+    "قبعة كلاسيكية"
+  ],
+  "WATCH_TYPES": [
+    "ساعة يد",
+    "ساعة حائط",
+    "ساعة ذكية",
+    "ساعة كوارتز",
+    "ساعة ميكانيكية",
+    "ساعة فاخرة"
+  ],
+  "PERFUME_TYPES": [
+    "عطر",
+    "ماء تواليت",
+    "ماء عطر",
+    "كريم عطري",
+    "سبراي جسم"
+  ],
+  "PERFUME_NOTES": [
+    "حمضيات",
+    "زهور",
+    "خشب",
+    "أعشاب",
+    "توابل",
+    "فواكه",
+    "مسك",
+    "عنبر"
+  ],
   "FREE_DELIVERY_PRODUCTS": [
     1765456782838
   ],
@@ -1651,124 +1774,5 @@
   },
   "storageKeys": {},
   "timestamp": "2025-12-07T10:15:31.349Z",
-  "version": "1.0",
-  "LANDING_PAGES": {
-    "templates": [
-      {
-        "id": "template1",
-        "name": "قالب بسيط",
-        "description": "صفحة هبوط بسيطة وعصرية",
-        "features": [
-          "صورة كبيرة",
-          "وصف مختصر",
-          "زر شراء واضح"
-        ]
-      },
-      {
-        "id": "template2",
-        "name": "قالب متميز",
-        "description": "صفحة هبوط متكاملة مع مميزات",
-        "features": [
-          "معرض صور",
-          "معلومات مفصلة",
-          "أسئلة شائعة",
-          "تعليقات العملاء"
-        ]
-      },
-      {
-        "id": "template3",
-        "name": "قالب ترويجي",
-        "description": "صفحة هبوط مخصصة للعروض",
-        "features": [
-          "عداد تنازلي",
-          "عرض خاص",
-          "شهادة جودة",
-          "ضمان رضا"
-        ]
-      }
-    ],
-    "pages": {
-      "1766870645677": {
-        "productId": 1766870645677,
-        "enabled": true,
-        "title": "بدلة رياضية",
-        "subtitle": "أفضل عرض لهذا المنتج",
-        "description": "",
-        "template": "template1",
-        "features": [
-          "جودة عالية",
-          "توصيل سريع",
-          "ضمان الجودة",
-          "دعم فني"
-        ],
-        "testimonials": [],
-        "faq": [],
-        "createdAt": "2026-01-16T20:12:16.244Z",
-        "updatedAt": "2026-01-16T20:12:16.244Z"
-      }
-    },
-    "analytics": {
-      "1766870645677": {
-        "views": 0,
-        "clicks": 0,
-        "conversions": 0,
-        "averageTime": 0,
-        "lastVisit": null,
-        "dailyStats": {},
-        "sourceStats": {}
-      }
-    },
-    "settings": {
-      "autoGenerate": true,
-      "defaultTemplate": "template1",
-      "trackClicks": true,
-      "trackTime": true,
-      "conversionGoal": "purchase"
-    }
-  },
-  "PRODUCT_CATEGORIES": [
-    "ملابس أطفال",
-    "ملابس رجالية",
-    "ملابس نسائية",
-    "أحذية",
-    "عطور رجالية",
-    "عطور نسائية",
-    "قبعات",
-    "ساعات رجالية",
-    "ساعات نسائية"
-  ],
-  "HAT_TYPES": [
-    "بيسبول",
-    "بريه",
-    "قبعة شمس",
-    "قبعة صوف",
-    "بكيني",
-    "قبعة رياضية",
-    "قبعة كلاسيكية"
-  ],
-  "WATCH_TYPES": [
-    "ساعة يد",
-    "ساعة حائط",
-    "ساعة ذكية",
-    "ساعة كوارتز",
-    "ساعة ميكانيكية",
-    "ساعة فاخرة"
-  ],
-  "PERFUME_TYPES": [
-    "عطر",
-    "ماء تواليت",
-    "ماء عطر",
-    "كريم عطري",
-    "سبراي جسم"
-  ],
-  "PERFUME_NOTES": [
-    "حمضيات",
-    "زهور",
-    "خشب",
-    "أعشاب",
-    "توابل",
-    "فواكه",
-    "مسك",
-    "عنبر"
-  ]
+  "version": "1.0"
 }
