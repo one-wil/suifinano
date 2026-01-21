@@ -1,6 +1,6 @@
 
 // =============================================================================
-// ⚙️ Fichier de paramètres principal du magasin
+// ⚙️ ملف الإعدادات الرئيسي للمتجر
 // =============================================================================
 
 const STORE_CONFIG = {
@@ -81,7 +81,7 @@ const STORE_CONFIG = {
       "stock": 0,
       "image": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-1766870714812-IMG-20251223-WA0007.jpg",
       "description": "",
-      "category": "ملابس رجالية",
+      "category": "",
       "availableSizes": [
         "S",
         "M",
@@ -94,7 +94,7 @@ const STORE_CONFIG = {
       ],
       "featured": false,
       "createdAt": "2025-12-27T21:24:05.677Z",
-      "updatedAt": "2025-12-29T17:03:04.163Z",
+      "updatedAt": "2026-01-21T04:53:41.384Z",
       "colorImages": {
         "أحمر": {
           "images": [
@@ -122,7 +122,8 @@ const STORE_CONFIG = {
         },
         "أبيض": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-أبيض-1766870817310-IMG-20251223-WA0003.jpg"
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-أبيض-1766870817310-IMG-20251223-WA0003.jpg",
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-أبيض-1768971206872-Screenshot-20251221-233746-Facebook.jpg"
           ],
           "ageRanges": [
             {
@@ -785,7 +786,10 @@ const STORE_CONFIG = {
     "desk": {
       "enabled": true,
       "minAmount": 0,
-      "wilayas": [],
+      "wilayas": [
+        "01 - أدرار",
+        "02 - الشلف"
+      ],
       "minQuantity": 1
     },
     "home": {
@@ -803,7 +807,7 @@ const STORE_CONFIG = {
     ]
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": false,
+    "enableQuantityDiscount": true,
     "minQuantityForDiscount": 1,
     "discountPerItem": 500,
     "discountScope": "selected",
@@ -811,7 +815,7 @@ const STORE_CONFIG = {
       1767039342242,
       1767650018376
     ],
-    "enablePromotionalDiscount": false,
+    "enablePromotionalDiscount": true,
     "promotionalDiscountPercent": 20,
     "promotionalDiscountedPrice": null,
     "promoDiscountScope": "selected",
@@ -1053,10 +1057,10 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 856,
-    "remainingDays": 12,
+    "currentPoints": 867,
+    "remainingDays": 11,
     "lastReset": "2026-01-01T19:10:50.001Z",
-    "planType": "gratuit",
+    "planType": "مجاني",
     "monthlyPoints": 1000,
     "resetPeriod": 30,
     "currentMonthDays": 30,
@@ -1133,11 +1137,11 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-20T17:01:26.123Z"
+    "lastUpdated": "2026-01-21T04:53:48.126Z"
   },
   "PIXEL_CODES": {
     "facebook": {
-      "enabled": false,
+      "enabled": true,
       "pixelId": "",
       "events": {
         "pageView": true,
@@ -1148,7 +1152,7 @@ const STORE_CONFIG = {
       }
     },
     "tiktok": {
-      "enabled": false,
+      "enabled": true,
       "pixelId": "",
       "events": {
         "pageView": true,
@@ -1159,6 +1163,125 @@ const STORE_CONFIG = {
       }
     }
   },
+  "LANDING_PAGES": {
+    "templates": [
+      {
+        "id": "template1",
+        "name": "قالب بسيط",
+        "description": "صفحة هبوط بسيطة وعصرية",
+        "features": [
+          "صورة كبيرة",
+          "وصف مختصر",
+          "زر شراء واضح"
+        ]
+      },
+      {
+        "id": "template2",
+        "name": "قالب متميز",
+        "description": "صفحة هبوط متكاملة مع مميزات",
+        "features": [
+          "معرض صور",
+          "معلومات مفصلة",
+          "أسئلة شائعة",
+          "تعليقات العملاء"
+        ]
+      },
+      {
+        "id": "template3",
+        "name": "قالب ترويجي",
+        "description": "صفحة هبوط مخصصة للعروض",
+        "features": [
+          "عداد تنازلي",
+          "عرض خاص",
+          "شهادة جودة",
+          "ضمان رضا"
+        ]
+      }
+    ],
+    "pages": {
+      "1766870645677": {
+        "productId": 1766870645677,
+        "enabled": true,
+        "title": "بدلة رياضية",
+        "subtitle": "أفضل عرض لهذا المنتج",
+        "description": "",
+        "template": "template1",
+        "features": [
+          "جودة عالية",
+          "توصيل سريع",
+          "ضمان الجودة",
+          "دعم فني"
+        ],
+        "testimonials": [],
+        "faq": [],
+        "createdAt": "2026-01-16T20:12:16.244Z",
+        "updatedAt": "2026-01-16T20:12:16.244Z"
+      }
+    },
+    "analytics": {
+      "1766870645677": {
+        "views": 0,
+        "clicks": 0,
+        "conversions": 0,
+        "averageTime": 0,
+        "lastVisit": null,
+        "dailyStats": {},
+        "sourceStats": {}
+      }
+    },
+    "settings": {
+      "autoGenerate": true,
+      "defaultTemplate": "template1",
+      "trackClicks": true,
+      "trackTime": true,
+      "conversionGoal": "purchase"
+    }
+  },
+  "PRODUCT_CATEGORIES": [
+    "ملابس أطفال",
+    "ملابس رجالية",
+    "ملابس نسائية",
+    "أحذية",
+    "عطور رجالية",
+    "عطور نسائية",
+    "قبعات",
+    "ساعات رجالية",
+    "ساعات نسائية"
+  ],
+  "HAT_TYPES": [
+    "بيسبول",
+    "بريه",
+    "قبعة شمس",
+    "قبعة صوف",
+    "بكيني",
+    "قبعة رياضية",
+    "قبعة كلاسيكية"
+  ],
+  "WATCH_TYPES": [
+    "ساعة يد",
+    "ساعة حائط",
+    "ساعة ذكية",
+    "ساعة كوارتز",
+    "ساعة ميكانيكية",
+    "ساعة فاخرة"
+  ],
+  "PERFUME_TYPES": [
+    "عطر",
+    "ماء تواليت",
+    "ماء عطر",
+    "كريم عطري",
+    "سبراي جسم"
+  ],
+  "PERFUME_NOTES": [
+    "حمضيات",
+    "زهور",
+    "خشب",
+    "أعشاب",
+    "توابل",
+    "فواكه",
+    "مسك",
+    "عنبر"
+  ],
   "FREE_DELIVERY_PRODUCTS": [
     1765456782838
   ],
@@ -1656,130 +1779,11 @@ const STORE_CONFIG = {
   },
   "storageKeys": {},
   "timestamp": "2025-12-07T10:15:31.349Z",
-  "version": "1.0",
-  "LANDING_PAGES": {
-    "templates": [
-      {
-        "id": "template1",
-        "name": "قالب بسيط",
-        "description": "صفحة هبوط بسيطة وعصرية",
-        "features": [
-          "صورة كبيرة",
-          "وصف مختصر",
-          "زر شراء واضح"
-        ]
-      },
-      {
-        "id": "template2",
-        "name": "قالب متميز",
-        "description": "صفحة هبوط متكاملة مع مميزات",
-        "features": [
-          "معرض صور",
-          "معلومات مفصلة",
-          "أسئلة شائعة",
-          "تعليقات العملاء"
-        ]
-      },
-      {
-        "id": "template3",
-        "name": "قالب ترويجي",
-        "description": "صفحة هبوط مخصصة للعروض",
-        "features": [
-          "عداد تنازلي",
-          "عرض خاص",
-          "شهادة جودة",
-          "ضمان رضا"
-        ]
-      }
-    ],
-    "pages": {
-      "1766870645677": {
-        "productId": 1766870645677,
-        "enabled": true,
-        "title": "بدلة رياضية",
-        "subtitle": "أفضل عرض لهذا المنتج",
-        "description": "",
-        "template": "template1",
-        "features": [
-          "جودة عالية",
-          "توصيل سريع",
-          "ضمان الجودة",
-          "دعم فني"
-        ],
-        "testimonials": [],
-        "faq": [],
-        "createdAt": "2026-01-16T20:12:16.244Z",
-        "updatedAt": "2026-01-16T20:12:16.244Z"
-      }
-    },
-    "analytics": {
-      "1766870645677": {
-        "views": 0,
-        "clicks": 0,
-        "conversions": 0,
-        "averageTime": 0,
-        "lastVisit": null,
-        "dailyStats": {},
-        "sourceStats": {}
-      }
-    },
-    "settings": {
-      "autoGenerate": true,
-      "defaultTemplate": "template1",
-      "trackClicks": true,
-      "trackTime": true,
-      "conversionGoal": "purchase"
-    }
-  },
-  "PRODUCT_CATEGORIES": [
-    "ملابس أطفال",
-    "ملابس رجالية",
-    "ملابس نسائية",
-    "أحذية",
-    "عطور رجالية",
-    "عطور نسائية",
-    "قبعات",
-    "ساعات رجالية",
-    "ساعات نسائية"
-  ],
-  "HAT_TYPES": [
-    "بيسبول",
-    "بريه",
-    "قبعة شمس",
-    "قبعة صوف",
-    "بكيني",
-    "قبعة رياضية",
-    "قبعة كلاسيكية"
-  ],
-  "WATCH_TYPES": [
-    "ساعة يد",
-    "ساعة حائط",
-    "ساعة ذكية",
-    "ساعة كوارتز",
-    "ساعة ميكانيكية",
-    "ساعة فاخرة"
-  ],
-  "PERFUME_TYPES": [
-    "عطر",
-    "ماء تواليت",
-    "ماء عطر",
-    "كريم عطري",
-    "سبراي جسم"
-  ],
-  "PERFUME_NOTES": [
-    "حمضيات",
-    "زهور",
-    "خشب",
-    "أعشاب",
-    "توابل",
-    "فواكه",
-    "مسك",
-    "عنبر"
-  ]
+  "version": "1.0"
 };
 
 // =============================================================================
-// 🛍️ Fonction de chargement des produits
+// 🛍️ دالة تحميل المنتجات
 // =============================================================================
 
 function loadProductsConfig() {
@@ -1787,7 +1791,7 @@ function loadProductsConfig() {
 }
 
 // =============================================================================
-// 🚚 Fonction de chargement des prix de livraison
+// 🚚 دالة تحميل أسعار التوصيل
 // =============================================================================
 
 function loadDeliveryConfig() {
@@ -1799,7 +1803,7 @@ function loadDeliveryConfig() {
 }
 
 // =============================================================================
-// 💰 Fonction de chargement des paramètres de réduction
+// 💰 دالة تحميل إعدادات الخصم
 // =============================================================================
 
 function loadDiscountConfig() {
@@ -1807,7 +1811,7 @@ function loadDiscountConfig() {
 }
 
 // =============================================================================
-// 🏪 Fonction de chargement des informations du magasin
+// 🏪 دالة تحميل معلومات المتجر
 // =============================================================================
 
 function loadStoreInfo() {
@@ -1815,7 +1819,7 @@ function loadStoreInfo() {
 }
 
 // =============================================================================
-// 🎨 Fonction de chargement des couleurs et tailles
+// 🎨 دالة تحميل الألوان والمقاسات
 // =============================================================================
 
 function loadSizesColorsConfig() {
@@ -1827,7 +1831,7 @@ function loadSizesColorsConfig() {
 }
 
 // =============================================================================
-// 📊 Fonction de chargement des paramètres de pixel
+// 📊 دالة تحميل إعدادات البكسل
 // =============================================================================
 
 function loadPixelConfig() {
@@ -1835,7 +1839,7 @@ function loadPixelConfig() {
 }
 
 // =============================================================================
-// 📊 Fonction de chargement de tous les paramètres
+// 📊 دالة تحميل جميع الإعدادات
 // =============================================================================
 
 function loadAllConfig() {
@@ -1843,7 +1847,7 @@ function loadAllConfig() {
 }
 
 // =============================================================================
-// 🔄 Fonction de mise à jour des paramètres
+// 🔄 دالة تحديث الإعدادات
 // =============================================================================
 
 function updateConfig(newConfig) {
