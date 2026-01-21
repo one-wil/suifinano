@@ -122,8 +122,7 @@ const STORE_CONFIG = {
         },
         "أبيض": {
           "images": [
-            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-أبيض-1766870817310-IMG-20251223-WA0003.jpg",
-            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-أبيض-1768971206872-Screenshot-20251221-233746-Facebook.jpg"
+            "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/product-1766870645677-أبيض-1766870817310-IMG-20251223-WA0003.jpg"
           ],
           "ageRanges": [
             {
@@ -1057,7 +1056,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 867,
+    "currentPoints": 864,
     "remainingDays": 11,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "مجاني",
@@ -1137,7 +1136,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-21T04:53:48.126Z"
+    "lastUpdated": "2026-01-21T08:10:01.410Z"
   },
   "PIXEL_CODES": {
     "facebook": {
@@ -1163,125 +1162,6 @@ const STORE_CONFIG = {
       }
     }
   },
-  "LANDING_PAGES": {
-    "templates": [
-      {
-        "id": "template1",
-        "name": "قالب بسيط",
-        "description": "صفحة هبوط بسيطة وعصرية",
-        "features": [
-          "صورة كبيرة",
-          "وصف مختصر",
-          "زر شراء واضح"
-        ]
-      },
-      {
-        "id": "template2",
-        "name": "قالب متميز",
-        "description": "صفحة هبوط متكاملة مع مميزات",
-        "features": [
-          "معرض صور",
-          "معلومات مفصلة",
-          "أسئلة شائعة",
-          "تعليقات العملاء"
-        ]
-      },
-      {
-        "id": "template3",
-        "name": "قالب ترويجي",
-        "description": "صفحة هبوط مخصصة للعروض",
-        "features": [
-          "عداد تنازلي",
-          "عرض خاص",
-          "شهادة جودة",
-          "ضمان رضا"
-        ]
-      }
-    ],
-    "pages": {
-      "1766870645677": {
-        "productId": 1766870645677,
-        "enabled": true,
-        "title": "بدلة رياضية",
-        "subtitle": "أفضل عرض لهذا المنتج",
-        "description": "",
-        "template": "template1",
-        "features": [
-          "جودة عالية",
-          "توصيل سريع",
-          "ضمان الجودة",
-          "دعم فني"
-        ],
-        "testimonials": [],
-        "faq": [],
-        "createdAt": "2026-01-16T20:12:16.244Z",
-        "updatedAt": "2026-01-16T20:12:16.244Z"
-      }
-    },
-    "analytics": {
-      "1766870645677": {
-        "views": 0,
-        "clicks": 0,
-        "conversions": 0,
-        "averageTime": 0,
-        "lastVisit": null,
-        "dailyStats": {},
-        "sourceStats": {}
-      }
-    },
-    "settings": {
-      "autoGenerate": true,
-      "defaultTemplate": "template1",
-      "trackClicks": true,
-      "trackTime": true,
-      "conversionGoal": "purchase"
-    }
-  },
-  "PRODUCT_CATEGORIES": [
-    "ملابس أطفال",
-    "ملابس رجالية",
-    "ملابس نسائية",
-    "أحذية",
-    "عطور رجالية",
-    "عطور نسائية",
-    "قبعات",
-    "ساعات رجالية",
-    "ساعات نسائية"
-  ],
-  "HAT_TYPES": [
-    "بيسبول",
-    "بريه",
-    "قبعة شمس",
-    "قبعة صوف",
-    "بكيني",
-    "قبعة رياضية",
-    "قبعة كلاسيكية"
-  ],
-  "WATCH_TYPES": [
-    "ساعة يد",
-    "ساعة حائط",
-    "ساعة ذكية",
-    "ساعة كوارتز",
-    "ساعة ميكانيكية",
-    "ساعة فاخرة"
-  ],
-  "PERFUME_TYPES": [
-    "عطر",
-    "ماء تواليت",
-    "ماء عطر",
-    "كريم عطري",
-    "سبراي جسم"
-  ],
-  "PERFUME_NOTES": [
-    "حمضيات",
-    "زهور",
-    "خشب",
-    "أعشاب",
-    "توابل",
-    "فواكه",
-    "مسك",
-    "عنبر"
-  ],
   "FREE_DELIVERY_PRODUCTS": [
     1765456782838
   ],
@@ -1779,7 +1659,126 @@ const STORE_CONFIG = {
   },
   "storageKeys": {},
   "timestamp": "2025-12-07T10:15:31.349Z",
-  "version": "1.0"
+  "version": "1.0",
+  "LANDING_PAGES": {
+    "templates": [
+      {
+        "id": "template1",
+        "name": "قالب بسيط",
+        "description": "صفحة هبوط بسيطة وعصرية",
+        "features": [
+          "صورة كبيرة",
+          "وصف مختصر",
+          "زر شراء واضح"
+        ]
+      },
+      {
+        "id": "template2",
+        "name": "قالب متميز",
+        "description": "صفحة هبوط متكاملة مع مميزات",
+        "features": [
+          "معرض صور",
+          "معلومات مفصلة",
+          "أسئلة شائعة",
+          "تعليقات العملاء"
+        ]
+      },
+      {
+        "id": "template3",
+        "name": "قالب ترويجي",
+        "description": "صفحة هبوط مخصصة للعروض",
+        "features": [
+          "عداد تنازلي",
+          "عرض خاص",
+          "شهادة جودة",
+          "ضمان رضا"
+        ]
+      }
+    ],
+    "pages": {
+      "1766870645677": {
+        "productId": 1766870645677,
+        "enabled": true,
+        "title": "بدلة رياضية",
+        "subtitle": "أفضل عرض لهذا المنتج",
+        "description": "",
+        "template": "template1",
+        "features": [
+          "جودة عالية",
+          "توصيل سريع",
+          "ضمان الجودة",
+          "دعم فني"
+        ],
+        "testimonials": [],
+        "faq": [],
+        "createdAt": "2026-01-16T20:12:16.244Z",
+        "updatedAt": "2026-01-16T20:12:16.244Z"
+      }
+    },
+    "analytics": {
+      "1766870645677": {
+        "views": 0,
+        "clicks": 0,
+        "conversions": 0,
+        "averageTime": 0,
+        "lastVisit": null,
+        "dailyStats": {},
+        "sourceStats": {}
+      }
+    },
+    "settings": {
+      "autoGenerate": true,
+      "defaultTemplate": "template1",
+      "trackClicks": true,
+      "trackTime": true,
+      "conversionGoal": "purchase"
+    }
+  },
+  "PRODUCT_CATEGORIES": [
+    "ملابس أطفال",
+    "ملابس رجالية",
+    "ملابس نسائية",
+    "أحذية",
+    "عطور رجالية",
+    "عطور نسائية",
+    "قبعات",
+    "ساعات رجالية",
+    "ساعات نسائية"
+  ],
+  "HAT_TYPES": [
+    "بيسبول",
+    "بريه",
+    "قبعة شمس",
+    "قبعة صوف",
+    "بكيني",
+    "قبعة رياضية",
+    "قبعة كلاسيكية"
+  ],
+  "WATCH_TYPES": [
+    "ساعة يد",
+    "ساعة حائط",
+    "ساعة ذكية",
+    "ساعة كوارتز",
+    "ساعة ميكانيكية",
+    "ساعة فاخرة"
+  ],
+  "PERFUME_TYPES": [
+    "عطر",
+    "ماء تواليت",
+    "ماء عطر",
+    "كريم عطري",
+    "سبراي جسم"
+  ],
+  "PERFUME_NOTES": [
+    "حمضيات",
+    "زهور",
+    "خشب",
+    "أعشاب",
+    "توابل",
+    "فواكه",
+    "مسك",
+    "عنبر"
+  ]
 };
 
 // =============================================================================
