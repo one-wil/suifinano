@@ -1,6 +1,6 @@
 
 // =============================================================================
-// ⚙️ ملف الإعدادات الرئيسي للمتجر
+// ⚙️ Fichier de paramètres principal du magasin
 // =============================================================================
 
 const STORE_CONFIG = {
@@ -785,10 +785,7 @@ const STORE_CONFIG = {
     "desk": {
       "enabled": true,
       "minAmount": 0,
-      "wilayas": [
-        "01 - أدرار",
-        "02 - الشلف"
-      ],
+      "wilayas": [],
       "minQuantity": 1
     },
     "home": {
@@ -1056,10 +1053,10 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 864,
+    "currentPoints": 862,
     "remainingDays": 11,
     "lastReset": "2026-01-01T19:10:50.001Z",
-    "planType": "مجاني",
+    "planType": "gratuit",
     "monthlyPoints": 1000,
     "resetPeriod": 30,
     "currentMonthDays": 30,
@@ -1136,7 +1133,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-21T08:10:01.410Z"
+    "lastUpdated": "2026-01-21T09:32:51.999Z"
   },
   "PIXEL_CODES": {
     "facebook": {
@@ -1782,7 +1779,7 @@ const STORE_CONFIG = {
 };
 
 // =============================================================================
-// 🛍️ دالة تحميل المنتجات
+// 🛍️ Fonction de chargement des produits
 // =============================================================================
 
 function loadProductsConfig() {
@@ -1790,7 +1787,7 @@ function loadProductsConfig() {
 }
 
 // =============================================================================
-// 🚚 دالة تحميل أسعار التوصيل
+// 🚚 Fonction de chargement des prix de livraison
 // =============================================================================
 
 function loadDeliveryConfig() {
@@ -1802,7 +1799,7 @@ function loadDeliveryConfig() {
 }
 
 // =============================================================================
-// 💰 دالة تحميل إعدادات الخصم
+// 💰 Fonction de chargement des paramètres de réduction
 // =============================================================================
 
 function loadDiscountConfig() {
@@ -1810,7 +1807,7 @@ function loadDiscountConfig() {
 }
 
 // =============================================================================
-// 🏪 دالة تحميل معلومات المتجر
+// 🏪 Fonction de chargement des informations du magasin
 // =============================================================================
 
 function loadStoreInfo() {
@@ -1818,7 +1815,7 @@ function loadStoreInfo() {
 }
 
 // =============================================================================
-// 🎨 دالة تحميل الألوان والمقاسات
+// 🎨 Fonction de chargement des couleurs et tailles
 // =============================================================================
 
 function loadSizesColorsConfig() {
@@ -1830,7 +1827,7 @@ function loadSizesColorsConfig() {
 }
 
 // =============================================================================
-// 📊 دالة تحميل إعدادات البكسل
+// 📊 Fonction de chargement des paramètres de pixel
 // =============================================================================
 
 function loadPixelConfig() {
@@ -1838,7 +1835,7 @@ function loadPixelConfig() {
 }
 
 // =============================================================================
-// 📊 دالة تحميل جميع الإعدادات
+// 📊 Fonction de chargement de tous les paramètres
 // =============================================================================
 
 function loadAllConfig() {
@@ -1846,7 +1843,7 @@ function loadAllConfig() {
 }
 
 // =============================================================================
-// 🔄 دالة تحديث الإعدادات
+// 🔄 Fonction de mise à jour des paramètres
 // =============================================================================
 
 function updateConfig(newConfig) {
