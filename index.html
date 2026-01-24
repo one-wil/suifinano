@@ -6592,6 +6592,39 @@
             
             stopSmartPulse();
         }
+
+
+        // ===== وظيفة سريعة: إضافة إلى السلة مع تأثيرات البرقية =====
+function addToCartWithTelegraphEffects(event) {
+    event.preventDefault();
+    
+    // 1. تحقق من اختيار اللون والمقاس
+    if (!selectedColor || !selectedAge) {
+        showNotification('يرجى اختيار اللون والمقاس أولاً', 'warning');
+        return;
+    }
+    
+    // 2. تشغيل تأثيرات البرقية
+    createSingleTelegraphEffect();
+    
+    // 3. بعد 800ms، نفذ الإضافة
+    setTimeout(() => {
+        const quantity = parseInt(document.getElementById('quantityDisplay').textContent);
+        const selectedOption = document.querySelector('#ageOptions .size-option-small.selected');
+        const size = selectedOption ? selectedOption.dataset.size : null;
+        
+        // 4. إضافة المنتج إلى السلة
+        addToCart(currentProductKey, quantity, selectedAge, selectedColor, size, event);
+        
+        // 5. إغلاق النافذة والانتقال
+        closeProductModal();
+        setTimeout(() => {
+            switchPage('page2');
+            showNotification('تمت إضافة المنتج إلى السلة بنجاح! ✅', 'success');
+        }, 500);
+    }, 800);
+}
+        
     </script>
 </body>
 </html>
