@@ -801,7 +801,7 @@
     ]
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": false,
+    "enableQuantityDiscount": true,
     "minQuantityForDiscount": 1,
     "discountPerItem": 500,
     "discountScope": "selected",
@@ -809,7 +809,7 @@
       1767039342242,
       1767650018376
     ],
-    "enablePromotionalDiscount": false,
+    "enablePromotionalDiscount": true,
     "promotionalDiscountPercent": 20,
     "promotionalDiscountedPrice": null,
     "promoDiscountScope": "selected",
@@ -1050,7 +1050,7 @@
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 860,
+    "currentPoints": 858,
     "remainingDays": 8,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "مجاني",
@@ -1130,7 +1130,7 @@
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-24T12:22:19.995Z"
+    "lastUpdated": "2026-01-24T16:38:31.138Z"
   },
   "PIXEL_CODES": {
     "facebook": {
