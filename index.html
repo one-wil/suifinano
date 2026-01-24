@@ -3199,7 +3199,54 @@
                 font-size: 0.75rem;
             }
         }
-      
+
+
+#page2 .btn-secondary {
+    background-color: #f0f0f0 !important; /* رمادي فاتح */
+    color: #0066CC !important; /* أزرق داكن للنص */
+    border: 1px solid #d1d9e6 !important;
+    font-weight: 600;
+    padding: 0.5rem 1rem !important;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#page2 .btn-secondary:hover {
+    background-color: #e6e6e6 !important; /* رمادي أغمق قليلاً عند التحويم */
+    color: #003366 !important; /* أزرق أغمق للنص عند التحويم */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-color: #0066CC !important;
+}
+
+#page2 .btn-secondary:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+#page2 .btn-secondary i {
+    color: #0066CC !important; /* أيقونة باللون الأزرق */
+    transition: color 0.3s ease;
+}
+
+#page2 .btn-secondary:hover i {
+    color: #003366 !important; /* أيقونة أزرق أغمق عند التحويم */
+}
+
+/* للتأكد من أن الزر في مجموعة الأزرار يأخذ التصميم الجديد */
+#page2 .btn-group .btn-secondary {
+    background-color: #f0f0f0 !important;
+    color: #0066CC !important;
+    border: 1px solid #d1d9e6 !important;
+}
+
+#page2 .btn-group .btn-secondary:hover {
+    background-color: #e6e6e6 !important;
+    color: #003366 !important;
+    border-color: #0066CC !important;
+}
+        
     </style>
 </head>
 <body>
