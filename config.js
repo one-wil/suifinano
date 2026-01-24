@@ -785,7 +785,10 @@ const STORE_CONFIG = {
     "desk": {
       "enabled": true,
       "minAmount": 0,
-      "wilayas": [],
+      "wilayas": [
+        "01 - أدرار",
+        "02 - الشلف"
+      ],
       "minQuantity": 1
     },
     "home": {
@@ -803,7 +806,7 @@ const STORE_CONFIG = {
     ]
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": true,
+    "enableQuantityDiscount": false,
     "minQuantityForDiscount": 1,
     "discountPerItem": 500,
     "discountScope": "selected",
@@ -811,7 +814,7 @@ const STORE_CONFIG = {
       1767039342242,
       1767650018376
     ],
-    "enablePromotionalDiscount": true,
+    "enablePromotionalDiscount": false,
     "promotionalDiscountPercent": 20,
     "promotionalDiscountedPrice": null,
     "promoDiscountScope": "selected",
@@ -825,17 +828,15 @@ const STORE_CONFIG = {
     "storeTitle": "-",
     "tagline": "أحدث الموديلات لسنة 2026",
     "phoneNumbers": [
-      "0671466489",
-      "0551102155"
+      "0671466489"
     ],
     "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1768591438821-Screenshot-20260106-002703-Gallery.jpg",
     "facebookUrl": "https://www.facebook.com/groups/3131209233768404/?ref=share&mibextid=NSMWBT",
-    "instagramUrl": "hffhhh",
-    "messengerUrl": "hfhhh",
-    "viberNumber": "hffh",
+    "instagramUrl": "",
+    "messengerUrl": "",
+    "viberNumber": "",
     "whatsappNumber": "213671466489",
-    "whatsappUrl": "https://wa.me/213671466489",
-    "tiktokUrl": "hfdhh"
+    "whatsappUrl": "https://wa.me/213671466489"
   },
   "GOOGLE_SHEETS": {
     "url": "https://docs.google.com/spreadsheets/d/1B6um1tNw0Uh4NJvLjF5zUX6palzubXv1UeH5gSIt_Go/edit?gid=774585379#gid=774585379",
@@ -1054,8 +1055,8 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 855,
-    "remainingDays": 11,
+    "currentPoints": 862,
+    "remainingDays": 8,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "مجاني",
     "monthlyPoints": 1000,
@@ -1134,11 +1135,11 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-21T15:05:29.551Z"
+    "lastUpdated": "2026-01-24T12:20:18.260Z"
   },
   "PIXEL_CODES": {
     "facebook": {
-      "enabled": true,
+      "enabled": false,
       "pixelId": "",
       "events": {
         "pageView": true,
@@ -1149,7 +1150,7 @@ const STORE_CONFIG = {
       }
     },
     "tiktok": {
-      "enabled": true,
+      "enabled": false,
       "pixelId": "",
       "events": {
         "pageView": true,
