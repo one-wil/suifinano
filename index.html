@@ -3503,7 +3503,7 @@
                         <table class="measurements-table">
                             <thead>
                                 <tr>
-                                    <th>القياس</th>
+                                    <th>المقاس</th>
                                     <th>الطول (سم)</th>
                                     <th>الوزن (كلغ)</th>
                                 </tr>
@@ -3543,7 +3543,7 @@
                         
                         <!-- Size Options -->
                         <div class="size-options-container" id="sizeOptionsContainer" style="display: none;">
-                            <label style="font-size: 0.8rem; margin-bottom: 0.2rem;">القياسات المتاحة</label>
+                            <label style="font-size: 0.8rem; margin-bottom: 0.2rem;">المقاسات المتاحة</label>
                             <div class="size-options-small" id="ageOptions">
                                 <!-- Size options will be loaded here -->
                             </div>
@@ -4371,7 +4371,7 @@
                 const availableColors = product.availableColors || [];
                 
                 const sizesText = availableSizes.length > 0 
-                    ? `القياسات: ${availableSizes.join(', ')}` 
+                    ? `المقاسات: ${availableSizes.join(', ')}` 
                     : 'لا توجد قياسات محددة';
                     
                 const colorsText = availableColors.length > 0 
@@ -4948,7 +4948,7 @@
                         <h4 class="selected-product-title">${item.name}</h4>
                         <div class="selected-product-details">
                             <span class="selected-product-detail">العمر: ${item.age}</span>
-                            <span class="selected-product-detail">القياس: ${item.size}</span>
+                            <span class="selected-product-detail">المقاس: ${item.size}</span>
                             <span class="selected-product-detail">اللون: ${item.color}</span>
                         </div>
                         <div class="selected-product-price">
@@ -5383,7 +5383,7 @@
                 addToCartBtn.addEventListener('click', function(event) {
                     // Check color and size selection first
                     if (!selectedColor || !selectedAge) {
-                        showNotification('يرجى اختيار اللون والقياس أولاً', 'warning');
+                        showNotification('يرجى اختيار اللون والمقاس أولاً', 'warning');
                         return;
                     }
                     
@@ -5444,7 +5444,7 @@
             const productColors = product.availableColors || [];
             
             if (productSizes.length > 1 || productColors.length > 1) {
-                showNotification('يرجى اختيار اللون والقياس أولاً', 'warning');
+                showNotification('يرجى اختيار اللون والمقاس أولاً', 'warning');
                 showProductDetails(productKey);
                 return;
             }
