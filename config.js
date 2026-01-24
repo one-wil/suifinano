@@ -832,7 +832,7 @@ const STORE_CONFIG = {
       "0551102155",
       "0551102155"
     ],
-    "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1768591438821-Screenshot-20260106-002703-Gallery.jpg",
+    "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1769282691192-Screenshot-20260124-202427-Gallery.jpg",
     "facebookUrl": "https://www.facebook.com/groups/3131209233768404/?ref=share&mibextid=NSMWBT",
     "instagramUrl": "",
     "messengerUrl": "",
@@ -1057,8 +1057,8 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 854,
-    "remainingDays": 8,
+    "currentPoints": 848,
+    "remainingDays": 7,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "مجاني",
     "monthlyPoints": 1000,
@@ -1137,7 +1137,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-24T16:43:24.653Z"
+    "lastUpdated": "2026-01-24T19:27:03.325Z"
   },
   "PIXEL_CODES": {
     "facebook": {
