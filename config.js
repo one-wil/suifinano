@@ -806,7 +806,7 @@ const STORE_CONFIG = {
     ]
   },
   "DISCOUNTS": {
-    "enableQuantityDiscount": false,
+    "enableQuantityDiscount": true,
     "minQuantityForDiscount": 1,
     "discountPerItem": 500,
     "discountScope": "selected",
@@ -814,7 +814,7 @@ const STORE_CONFIG = {
       1767039342242,
       1767650018376
     ],
-    "enablePromotionalDiscount": false,
+    "enablePromotionalDiscount": true,
     "promotionalDiscountPercent": 20,
     "promotionalDiscountedPrice": null,
     "promoDiscountScope": "selected",
@@ -1055,7 +1055,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 860,
+    "currentPoints": 858,
     "remainingDays": 8,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "مجاني",
@@ -1135,7 +1135,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-24T12:22:22.986Z"
+    "lastUpdated": "2026-01-24T16:38:39.562Z"
   },
   "PIXEL_CODES": {
     "facebook": {
