@@ -4,25 +4,7 @@
 // =============================================================================
 
 const STORE_CONFIG = {
-  "PRODUCTS": {
-    "1773232526181": {
-      "name": "",
-      "price": 0,
-      "description": "",
-      "category": "",
-      "stock": 0,
-      "featured": false,
-      "availableColors": [],
-      "availableSizes": [],
-      "ageRanges": [],
-      "colorImages": {},
-      "sizeGuide": {
-        "enabled": false,
-        "guide": {}
-      },
-      "createdAt": "2026-03-11T12:35:26.181Z"
-    }
-  },
+  "PRODUCTS": {},
   "DELIVERY_PRICES": {
     "01 - أدرار": {
       "home": 1100,
@@ -526,7 +508,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 988,
+    "currentPoints": 986,
     "remainingDays": 29,
     "lastReset": "2026-03-09T21:50:52.974Z",
     "planType": "مجاني",
@@ -606,7 +588,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-03-11T12:49:50.577Z"
+    "lastUpdated": "2026-03-11T13:09:47.236Z"
   },
   "PIXEL_CODES": {
     "facebook": {
